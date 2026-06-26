@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <title>MINIPART</title>
+  <link rel="icon" type="image/x-icon" href="/assets/images/Minipart logo.png" />
+</head>
+
+<body>
+  <header style="background-image: url('/assets/images/Header%20background%20-%20Open%20science.webp')">
+  <div id="menu-div">
+    <div class="responsive-elements">
+      <div class="logo-box">
+        <img
+          src="/assets/images/Minipart logo.png"
+          alt="Minipart logo"
+          id="minipart-logo"
+        />
+      </div>
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <div class="flags-container">
+    
+
+  <a href="#" class="active-flag">
+    <img src="/assets/images/Serbian flag.png" alt="Srpski" class="flags" />
+  </a>
+  <a href="/survey-results.html">
+    <img src="/assets/images/UK flag.png" alt="English" class="flags" />
+  </a>
+
+  
+</div>
+    </div>
+    <nav class="navigation">
+      <ul>
+        <!-- Home icon -->
+        <li>
+          <a
+            href="/"
+          >
+            <img
+              src="/assets/images/home icon.png"
+              alt="Home icon"
+              class="flags"
+              id="home-icon"
+            />
+          </a>
+        </li>
+
+        <!-- About -->
+        <li>
+          <a
+            href="/o-projektu.html"
+          >
+            О пројекту
+          </a>
+        </li>
+
+        <!-- Team -->
+        <li>
+          <a
+            href="/tim.html"
+          >
+            Тим
+          </a>
+        </li>
+
+        <!-- Results -->
+        <li>
+          <a
+            href="/rezultati.html"
+          >
+            Резултати
+          </a>
+        </li>
+
+        <!-- Open Science -->
+        <li>
+          <a
+            href="/otvorena-nauka.html"
+          >
+            Отворена наука
+          </a>
+        </li>
+
+        <!-- News -->
+        <li>
+          <a
+            href="/vesti.html"
+          >
+            Вести
+          </a>
+        </li>
+
+        <!-- Application -->
+        <li>
+          <a
+            href="/aplikacija.html"
+          >
+            Апликација
+          </a>
+        </li>
+
+        <!-- Contact -->
+        <li>
+          <a
+            href="/kontakt.html"
+          >
+            Контакт
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  
+  <h1>ОТВОРЕНА НАУКА</h1>
+  
+</header>
+ <main>
+  <div class="rounded-rectangles">
+    <h2>Резултати анкете</h2>
+    <br />
+    <p>
+      Овај извештај представља налазе истраживања спроведеног у оквиру пројекта
+      MINIPART – Унапређење учешћа јавности у просторном планирању рударских
+      региона. Сврха истраживања била је да се испитају перцепције локалног
+      становништва о учешћу у процесима планирања, са фокусом на њихово
+      понашање, разумевање, ангажовање и ставове према одређеним партиципативним
+      методама и процедурама. Циљ је био да се утврди које су методе учешћа
+      јавности најпогодније и најприхватљивије за локално становништво.
+    </p>
+    <p>
+      Ови налази ће у наредним фазама пројекта бити упоређени са мишљењима
+      стручњака о партиципативним методама и процедурама. Коначни резултат
+      укључиће препоруке за унапређење праксе учешћа јавности у рударским
+      подручјима Србије. Очекује се да ће добијени резултати бити применљиви и у
+      другим контекстима.
+    </p>
+    <h3 style="font-weight: 800">ЦИТАТ</h3>
+    <p>
+      Toković, M., Milosavljević, D., Pantić, M., Maričić, T., & Vuković, M.
+      (2025, June 4). Bor and Majdanpek – Report on the Results of the Survey
+      Research. Institute of Architecture and Urban & Spatial Planning of
+      Serbia.
+      <a href="https://doi.org/10.5281/zenodo.15593376" target="_blank"
+        >https://doi.org/10.5281/zenodo.15593376</a
+      >
+    </p>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/1.png"
+        alt="slajd 1"
+        width="100%"
+      />
+    </figure>
+    <figure style="position: relative" id="content-slide">
+      <a
+        href="#survey-data"
+        class="content-slide-link"
+        style="position: absolute; top: 19%; left: 45%; width: 33%; height: 5%"
+      ></a>
+      <a
+        href="#respondent-profile"
+        class="content-slide-link"
+        style="
+          position: absolute;
+          top: 24.5%;
+          left: 45%;
+          width: 19.7%;
+          height: 5.2%;
+        "
+      ></a>
+      <a
+        href="#key-issues"
+        class="content-slide-link"
+        style="
+          position: absolute;
+          top: 30.1%;
+          left: 45%;
+          width: 48%;
+          height: 9.3%;
+        "
+      ></a>
+      <a
+        href="#public-awareness"
+        class="content-slide-link"
+        style="
+          position: absolute;
+          top: 40%;
+          left: 45%;
+          width: 52.6%;
+          height: 9.5%;
+        "
+      ></a>
+      <a
+        href="#local-population-participation"
+        class="content-slide-link"
+        style="
+          position: absolute;
+          top: 50%;
+          left: 45%;
+          width: 49.3%;
+          height: 13.4%;
+        "
+      ></a>
+      <a
+        href="#local-community-activities"
+        class="content-slide-link"
+        style="
+          position: absolute;
+          top: 65%;
+          left: 45%;
+          width: 45%;
+          height: 9.5%;
+        "
+      ></a>
+      <a
+        href="#residents-recommendations"
+        class="content-slide-link"
+        style="
+          position: absolute;
+          top: 76%;
+          left: 45%;
+          width: 51.5%;
+          height: 13.5%;
+        "
+      ></a>
+      <img
+        src="/assets/docs/survey-results/sr/2.png"
+        alt="slajd 2"
+        width="100%"
+      />
+    </figure>
+    <figure id="survey-data">
+      <img
+        src="/assets/docs/survey-results/sr/3.png"
+        alt="slajd 3"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/4.png"
+        alt="slajd 4"
+        width="100%"
+      />
+    </figure>
+    <figure id="respondent-profile">
+      <img
+        src="/assets/docs/survey-results/sr/5.png"
+        alt="slajd 5"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/6.png"
+        alt="slajd 6"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/7.png"
+        alt="slajd 7"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/8.png"
+        alt="slajd 8"
+        width="100%"
+      />
+    </figure>
+    <figure id="key-issues">
+      <img
+        src="/assets/docs/survey-results/sr/9.png"
+        alt="slajd 9"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/10.png"
+        alt="slajd 10"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/11.png"
+        alt="slajd 11"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/12.png"
+        alt="slajd 12"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/13.png"
+        alt="slajd 13"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/14.png"
+        alt="slajd 14"
+        width="100%"
+      />
+    </figure>
+    <figure id="public-awareness">
+      <img
+        src="/assets/docs/survey-results/sr/15.png"
+        alt="slajd 15"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/16.png"
+        alt="slajd 16"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/17.png"
+        alt="slajd 17"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/18.png"
+        alt="slajd 18"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/19.png"
+        alt="slajd 19"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/20.png"
+        alt="slajd 20"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/21.png"
+        alt="slajd 21"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/22.png"
+        alt="slajd 22"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/23.png"
+        alt="slajd 23"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/24.png"
+        alt="slajd 24"
+        width="100%"
+      />
+    </figure>
+    <figure id="local-population-participation">
+      <img
+        src="/assets/docs/survey-results/sr/25.png"
+        alt="slajd 25"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/26.png"
+        alt="slajd 26"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/27.png"
+        alt="slajd 27"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/28.png"
+        alt="slajd 28"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/29.png"
+        alt="slajd 29"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/30.png"
+        alt="slajd 30"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/31.png"
+        alt="slajd 31"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/32.png"
+        alt="slajd 32"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/33.png"
+        alt="slajd 33"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/34.png"
+        alt="slajd 34"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/35.png"
+        alt="slajd 35"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/36.png"
+        alt="slajd 36"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/37.png"
+        alt="slajd 37"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/38.png"
+        alt="slajd 38"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/39.png"
+        alt="slajd 39"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/40.png"
+        alt="slajd 40"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/41.png"
+        alt="slajd 41"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/42.png"
+        alt="slajd 42"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/43.png"
+        alt="slajd 43"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/44.png"
+        alt="slajd 44"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/45.png"
+        alt="slajd 45"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/46.png"
+        alt="slajd 46"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/47.png"
+        alt="slajd 47"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/48.png"
+        alt="slajd 48"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/49.png"
+        alt="slajd 49"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/50.png"
+        alt="slajd 50"
+        width="100%"
+      />
+    </figure>
+    <figure id="local-community-activities">
+      <img
+        src="/assets/docs/survey-results/sr/51.png"
+        alt="slajd 51"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/52.png"
+        alt="slajd 52"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/53.png"
+        alt="slajd 53"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/54.png"
+        alt="slajd 54"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/55.png"
+        alt="slajd 55"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/56.png"
+        alt="slajd 56"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/57.png"
+        alt="slajd 57"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/58.png"
+        alt="slajd 58"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/59.png"
+        alt="slajd 59"
+        width="100%"
+      />
+    </figure>
+    <figure id="residents-recommendations">
+      <img
+        src="/assets/docs/survey-results/sr/60.png"
+        alt="slajd 60"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/61.png"
+        alt="slajd 61"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/62.png"
+        alt="slajd 62"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/63.png"
+        alt="slajd 63"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/64.png"
+        alt="slajd 64"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/65.png"
+        alt="slajd 65"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/66.png"
+        alt="slajd 66"
+        width="100%"
+      />
+    </figure>
+    <figure>
+      <img
+        src="/assets/docs/survey-results/sr/67.png"
+        alt="slajd 67"
+        width="100%"
+      />
+    </figure>
+    <br /><br />
+  </div>
+</main>
+<a
+  href="#content-slide"
+  class="position-fixed bottom-0 end-0 m-5"
+  id="backToTop"
+  >▲</a
+>
+ <img src="/assets/images/Footer background.jpg" alt="" id="circle-part" />
+<footer>
+  <div id="partners">
+    <a
+      href="https://fondzanauku.gov.rs/"
+      id="FZN-link"
+      target="_blank"
+    >
+      <img src="/assets/images/FZN empty.png" alt="Fond za nauku logo" />
+    </a>
+
+    <a href="https://iaus.ac.rs/" id="IAUS-link" target="_blank"
+      ><img src="/assets/images/IAUS empty.png" alt="IAUS logo"
+    /></a>
+    <a
+      href="https://gef.bg.ac.rs/"
+      id="GF-link"
+      target="_blank"
+      ><img src="/assets/images/UBGEF empty.png" alt="Geografski fakultet logo"
+    /></a>
+    <a href="https://www.tfbor.bg.ac.rs/" id="TFB-link" target="_blank"
+      ><img
+        src="/assets/images/TFBor empty.png"
+        alt="Tehnicki fakultet Bor logo"
+    /></a>
+    <a href="https://ifdt.bg.ac.rs/" id="IFDT-link" target="_blank"
+      ><img src="/assets/images/IFDT empty.png" alt="IFDT logo"
+    /></a>
+  </div>
+  <p id="footer-text">Овај сајт је сачињен уз финансијску подршку Фонда за науку Републике Србије.<br />За садржину овог сајта је искључиво одговоран пројекат МИНИПАРТ и та садржина не изражава ставове Фонда за науку Републике Србије</p>
+  <div id="contact-div">
+    <address id="physical-address">
+      Контакт адреса:<br />
+      Булевар краља Александра 73/II<br />
+      11000 Београд, Србија<br />
+      info@minipart.rs
+    </address>
+    <address id="website-info" style="text-align: right">
+      <li>
+        <a
+          href="https://www.facebook.com/profile.php?id=61559019407001"
+          target="_blank"
+          ><img
+            src="/assets/images/Facebook logo.png"
+            alt="Facebook logo"
+            class=""
+        /></a>
+        <a href="https://www.instagram.com/minipart_prizma/" target="_blank"
+          ><img
+            src="/assets/images/Instagram logo.png"
+            alt="Instagram logo"
+            class=""
+        /></a>
+        <a href="https://www.linkedin.com/company/minipart/" target="_blank"
+          ><img
+            src="/assets/images/LinkedIn logo.png"
+            alt="LinkedIn logo"
+            class=""
+        /></a>
+      </li>
+      <br />
+      Дизајн: Љиљана Ђајић<br />
+      Веб-сајт: Владан Масић<br />
+      Copyright © 2026 МИНИПАРТ
+    </address>
+  </div>
+  <div id="below-address"></div>
+</footer>
+
+  <script src="/assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
