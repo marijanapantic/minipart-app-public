@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <title>MINIPART</title>
+  <link rel="icon" type="image/x-icon" href="/assets/images/Minipart logo.png" />
+</head>
+
+<body>
+  <header style="background-image: url('/assets/images/Header%20background%20-%20Contact.webp')">
+  <div id="menu-div">
+    <div class="responsive-elements">
+      <div class="logo-box">
+        <img
+          src="/assets/images/Minipart logo.png"
+          alt="Minipart logo"
+          id="minipart-logo"
+        />
+      </div>
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <div class="flags-container">
+    
+
+  <a href="/en/kontakt.html">
+    <img src="/assets/images/Serbian flag.png" alt="Srpski" class="flags" />
+  </a>
+  <a href="#" class="active-flag">
+    <img src="/assets/images/UK flag.png" alt="English" class="flags" />
+  </a>
+  
+</div>
+    </div>
+    <nav class="navigation">
+      <ul>
+        <!-- Home icon -->
+        <li>
+          <a
+            href="/en/index.en.html"
+          >
+            <img
+              src="/assets/images/home icon.png"
+              alt="Home icon"
+              class="flags"
+              id="home-icon"
+            />
+          </a>
+        </li>
+
+        <!-- About -->
+        <li>
+          <a
+            href="/en/about-project.html"
+          >
+            About project
+          </a>
+        </li>
+
+        <!-- Team -->
+        <li>
+          <a
+            href="/en/team.html"
+          >
+            Team
+          </a>
+        </li>
+
+        <!-- Results -->
+        <li>
+          <a
+            href="/en/results.html"
+          >
+            Results
+          </a>
+        </li>
+
+        <!-- Open Science -->
+        <li>
+          <a
+            href="/en/open-science.html"
+          >
+            Open science
+          </a>
+        </li>
+
+        <!-- News -->
+        <li>
+          <a
+            href="/en/news.html"
+          >
+            News
+          </a>
+        </li>
+
+        <!-- Application -->
+        <li>
+          <a
+            href="/en/application.html"
+          >
+            Application
+          </a>
+        </li>
+
+        <!-- Contact -->
+        <li>
+          <a
+            href="/en/contact.html"
+          >
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  
+  <h1>CONTACT</h1>
+  
+</header>
+ <main>
+  <div id="contact-main-div">
+    <div id="contact-main-div-address">
+      <div style="display: flex">
+        <div>
+          <img
+            src="/assets/images/location icon.png"
+            alt="Location icon"
+            id="location-icon"
+          />
+        </div>
+        <div style="padding-right: 5%">
+          <p>
+            Contact address:<br />
+            Bulevara kralja Aleksandra 73/II<br />
+            11000 Belgrade<br />
+            Serbia<br />
+          </p>
+          <br /><br />
+        </div>
+      </div>
+
+      <div style="display: block">
+        <img
+          src="/assets/images/message icon.png"
+          alt="Message icon"
+          id="message-icon"
+        />
+        <a href="mailto:info@minipart.rs">info@minipart.rs</a>
+      </div>
+    </div>
+    <br /><br />
+    <div id="contact-main-div-message">
+      <form action="mailto:info@minipart.rs" method="get">
+        <input
+          type="text"
+          required
+          name="name"
+          placeholder="Name and surname"
+          id="name"
+        />
+        <input
+          type="email"
+          required
+          name="email"
+          placeholder="Email"
+          id="email"
+        /><br />
+        <input
+          type="text"
+          required
+          name="subject"
+          placeholder="Subject"
+          id="subject"
+        /><br />
+        <textarea
+          name="message"
+          id="message"
+          required
+          placeholder="Message"
+        ></textarea
+        ><br />
+        <button name="submit-button" type="submit" id="submit-button">
+          Send
+        </button>
+      </form>
+      <div id="google-map-div">
+        <img
+          src="/assets/images/Google Map.png"
+          alt="Google Map Location"
+          id="google-map-image"
+        />
+      </div>
+    </div>
+  </div>
+</main>
+ <img src="/assets/images/Footer background.jpg" alt="" id="circle-part" />
+<footer>
+  <div id="partners">
+    <a
+      href="https://fondzanauku.gov.rs/"
+      id="FZN-link-english"
+      target="_blank"
+    >
+      <img src="/assets/images/FZN empty.png" alt="Fond za nauku logo" />
+    </a>
+
+    <a href="https://iaus.ac.rs/" id="IAUS-link" target="_blank"
+      ><img src="/assets/images/IAUS empty.png" alt="IAUS logo"
+    /></a>
+    <a
+      href="https://gef.bg.ac.rs/"
+      id="GF-link-english"
+      target="_blank"
+      ><img src="/assets/images/UBGEF empty.png" alt="Geografski fakultet logo"
+    /></a>
+    <a href="https://www.tfbor.bg.ac.rs/" id="TFB-link" target="_blank"
+      ><img
+        src="/assets/images/TFBor empty.png"
+        alt="Tehnicki fakultet Bor logo"
+    /></a>
+    <a href="https://ifdt.bg.ac.rs/" id="IFDT-link" target="_blank"
+      ><img src="/assets/images/IFDT empty.png" alt="IFDT logo"
+    /></a>
+  </div>
+  <p id="footer-text">The website is supported by the Science Fund of the Republic of
+    Serbia.<br />
+    MINIPART project bears full responsibility for the content and does not
+    express the views of the Science Fund of the Republic of Serbia
+</p>
+  <div id="contact-div">
+    <address id="physical-address">
+      Contact address:<br />
+      Bulevar Kralja Aleksandra 73/II<br />
+      11000 Belgrade, Serbia<br />
+      info@minipart.rs
+    </address>
+    <address id="website-info" style="text-align: right">
+      <li>
+        <a
+          href="https://www.facebook.com/profile.php?id=61559019407001"
+          target="_blank"
+          ><img
+            src="/assets/images/Facebook logo.png"
+            alt="Facebook logo"
+            class=""
+        /></a>
+        <a href="https://www.instagram.com/minipart_prizma/" target="_blank"
+          ><img
+            src="/assets/images/Instagram logo.png"
+            alt="Instagram logo"
+            class=""
+        /></a>
+        <a href="https://www.linkedin.com/company/minipart/" target="_blank"
+          ><img
+            src="/assets/images/LinkedIn logo.png"
+            alt="LinkedIn logo"
+            class=""
+        /></a>
+      </li>
+      <br />
+      Design: Ljiljana Đajić<br />
+      Website: Vladan Masić<br />
+      Copyright © 2026 MINIPART
+    </address>
+  </div>
+  <div id="below-address"></div>
+</footer>
+
+  <script src="/assets/js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
