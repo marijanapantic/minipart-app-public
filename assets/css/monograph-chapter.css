@@ -1,0 +1,432 @@
+/* Shared chapter presentation; all component rules stay within chapter pages. */
+body:has(> .chapter-page) {
+  background: #fcf9fd;
+}
+
+.chapter-page {
+  --chapter-ink: #5a2d51;
+  --chapter-accent: #94618e;
+  --chapter-paper: #efe8f5;
+  --chapter-border: #dfd1e4;
+  --chapter-gutter: max(24px, calc((100% - 1280px) / 2));
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: -100px auto 96px;
+  color: #302334;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+
+.chapter-page *,
+.chapter-page *::before,
+.chapter-page *::after {
+  box-sizing: border-box;
+}
+
+.chapter-page a {
+  color: var(--chapter-ink);
+  text-underline-offset: 3px;
+}
+
+.chapter-page :is(a, button, [tabindex]):focus-visible {
+  outline: 3px solid var(--chapter-accent);
+  outline-offset: 4px;
+}
+
+.chapter-page .chapter-icon {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.chapter-page .chapter-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 420px;
+  align-items: start;
+  gap: 96px;
+  padding: 32px var(--chapter-gutter) 48px;
+}
+
+.chapter-page :is(.chapter-content, .chapter-sidebar) {
+  min-width: 0;
+}
+
+.chapter-page .chapter-number {
+  display: inline-block;
+  margin: 0 0 20px;
+  padding: 3px 14px;
+  border: 1px solid var(--chapter-accent);
+  border-radius: 9px;
+  background: var(--chapter-paper);
+  color: var(--chapter-ink);
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.chapter-page #chapter-title {
+  margin: 0 0 20px;
+  color: var(--chapter-ink);
+  font-size: clamp(28px, 2.8vw, 40px);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.chapter-page .chapter-authors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  list-style: none;
+  margin: 0 0 18px;
+  padding: 0;
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.chapter-page .chapter-authors li {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.chapter-page .chapter-authors li + li {
+  position: relative;
+  padding-left: 24px;
+}
+
+.chapter-page .chapter-authors li + li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 2px;
+  height: 22px;
+  background: var(--chapter-accent);
+  transform: translateY(-50%);
+}
+
+.chapter-page .chapter-authors sup {
+  padding-left: 2px;
+  font-size: 12px;
+}
+
+.chapter-page .chapter-authors sup a {
+  text-decoration: none;
+}
+
+.chapter-page .chapter-orcid {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 32px;
+  min-height: 32px;
+}
+
+.chapter-page .chapter-orcid img {
+  width: 22px;
+  height: auto;
+  margin: 0 2px;
+  filter: opacity(50%);
+}
+
+.chapter-page .chapter-orcid:is(:hover, :focus-visible) img {
+  filter: opacity(80%);
+}
+
+.chapter-page .chapter-affiliations {
+  margin: 0 0 24px;
+  padding: 0;
+  list-style: none;
+  font-size: 15px;
+}
+
+.chapter-page .chapter-affiliations li {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  scroll-margin-top: 24px;
+}
+
+.chapter-page h3 {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0 0 16px;
+  color: var(--chapter-ink);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.chapter-page h3 .chapter-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.chapter-page .chapter-abstract {
+  border-top: 1px solid var(--chapter-border);
+  padding-top: 22px;
+}
+
+.chapter-page .chapter-abstract p {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+.chapter-page .chapter-keywords {
+  margin: 28px 0 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--chapter-border);
+  line-height: 1.65;
+}
+
+.chapter-page .chapter-keywords h3 {
+  display: inline;
+  margin: 0 10px 0 0;
+  font-size: 19px;
+}
+
+.chapter-page .chapter-keywords .chapter-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.chapter-page .chapter-keywords p {
+  display: inline;
+  margin: 0;
+}
+
+.chapter-page .chapter-card {
+  padding: 24px;
+  border: 1px solid #e7dcec;
+  border-radius: 14px;
+  background: linear-gradient(145deg, #ecdfef, #f5eff8);
+}
+
+.chapter-page .chapter-citation h3 {
+  font-size: 23px;
+}
+
+.chapter-page .chapter-quote {
+  font: bold 40px/0.8 Georgia, serif;
+}
+
+.chapter-page .chapter-citation-body {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.chapter-page .chapter-citation-body p {
+  min-width: 0;
+  margin: 0;
+}
+
+.chapter-page .chapter-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  min-height: 48px;
+  padding: 12px 16px;
+  border: 1px solid var(--chapter-accent);
+  border-radius: 10px;
+  background: #fcf9fd;
+  color: var(--chapter-ink);
+  font: inherit;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.chapter-page .chapter-button:hover {
+  background: var(--chapter-paper);
+}
+
+.chapter-page .chapter-button-primary {
+  background: var(--chapter-ink);
+  color: #fff;
+  border-color: var(--chapter-ink);
+}
+
+.chapter-page .chapter-button-primary:hover {
+  background: #6e4a6a;
+}
+
+.chapter-page .chapter-copy {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  border: 0;
+  background: transparent;
+  color: var(--chapter-accent);
+  cursor: pointer;
+}
+
+.chapter-page .chapter-copy .chapter-icon {
+  width: 21px;
+  height: 21px;
+}
+
+.chapter-page .chapter-copy-check,
+.chapter-page .chapter-copy.is-copied .chapter-copy-symbol {
+  display: none;
+}
+
+.chapter-page .chapter-copy.is-copied .chapter-copy-check {
+  display: block;
+}
+
+.chapter-page .chapter-copy[hidden] {
+  display: none;
+}
+
+.chapter-page .chapter-copy-status {
+  margin: 8px 0 0;
+  font-size: 14px;
+  color: var(--chapter-ink);
+}
+
+.chapter-page .chapter-copy-status:empty {
+  margin: 0;
+}
+
+.chapter-page .chapter-sidebar {
+  display: grid;
+  gap: 24px;
+}
+
+.chapter-page .chapter-details {
+  padding: 24px;
+  background: #e9d9ec;
+  border: 1px solid #e4d3e8;
+  border-radius: 16px;
+}
+
+.chapter-page .chapter-details h3 {
+  font-size: 24px;
+  margin-bottom: 14px;
+}
+
+.chapter-page .chapter-details dl {
+  margin: 0 -12px;
+  padding: 0 12px 10px;
+  border-radius: 10px;
+  background: rgb(255 255 255 / 35%);
+}
+
+.chapter-page .chapter-details dl > div {
+  position: relative;
+  margin-left: 41px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--chapter-border);
+}
+
+.chapter-page .chapter-details dl > div:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.chapter-page .chapter-details dt,
+.chapter-page .chapter-details dd {
+  display: inline;
+  margin: 0;
+}
+
+.chapter-page .chapter-details dl .chapter-icon {
+  position: absolute;
+  left: -41px;
+  top: 12px;
+  width: 21px;
+  height: 21px;
+  color: var(--chapter-ink);
+}
+
+.chapter-page .chapter-details .chapter-details-book {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  line-height: 1.25;
+}
+
+.chapter-page .chapter-details-book dt {
+  flex-shrink: 0;
+}
+
+.chapter-page .chapter-details-book dd {
+  min-width: 0;
+}
+
+.chapter-page .chapter-details .chapter-details-book .chapter-icon {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.chapter-page .chapter-actions {
+  display: grid;
+  gap: 14px;
+  padding: 16px;
+}
+
+.chapter-page .chapter-actions .chapter-button {
+  width: 100%;
+  font-size: 18px;
+}
+
+@media (max-width: 1199px) {
+  .chapter-page .chapter-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 48px;
+  }
+
+  .chapter-page .chapter-card {
+    padding: 18px;
+  }
+
+  .chapter-page .chapter-citation-body {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .chapter-page {
+    --chapter-gutter: 20px;
+    margin-bottom: 48px;
+  }
+
+  .chapter-page .chapter-grid {
+    padding-top: 24px;
+  }
+
+  .chapter-page .chapter-authors {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .chapter-page .chapter-authors li + li {
+    padding-left: 0;
+  }
+
+  .chapter-page .chapter-authors li + li::before {
+    display: none;
+  }
+
+  .chapter-page .chapter-button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,1562 @@
+<!DOCTYPE html>
+<html lang="sr-RS">
+<head data-template-uri="https://bor.rs/wp-content/themes/townpress">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="profile" href="https://gmpg.org/xfn/11" />
+    <link rel="pingback" href="https://bor.rs/xmlrpc.php" />
+	    <title>404 Page Not Found | Град Бор</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin />
+<link rel="alternate" type="application/rss+xml" title="Град Бор &raquo; dovod" href="https://bor.rs/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Град Бор &raquo; dovod komentara" href="https://bor.rs/comments/feed/" />
+		<!-- This site uses the Google Analytics by ExactMetrics plugin v7.28.0 - Using Analytics tracking - https://www.exactmetrics.com/ -->
+							<script src="//www.googletagmanager.com/gtag/js?id=G-D1K35XJM9S"  data-cfasync="false" data-wpfc-render="false" type="text/javascript" async></script>
+			<script data-cfasync="false" data-wpfc-render="false" type="text/javascript">
+				var em_version = '7.28.0';
+				var em_track_user = true;
+				var em_no_track_reason = '';
+								var ExactMetricsDefaultLocations = {"page_location":"https:\/\/bor.rs\/wp-content\/uploads\/2018\/02\/ReferalneKarteGUP.zip\/","page_referrer":"https:\/\/bor.rs\/urbanizam-dok\/urbanisticki-planovi\/?pismo=lat"};
+				if ( typeof ExactMetricsPrivacyGuardFilter === 'function' ) {
+					var ExactMetricsLocations = (typeof ExactMetricsExcludeQuery === 'object') ? ExactMetricsPrivacyGuardFilter( ExactMetricsExcludeQuery ) : ExactMetricsPrivacyGuardFilter( ExactMetricsDefaultLocations );
+				} else {
+					var ExactMetricsLocations = (typeof ExactMetricsExcludeQuery === 'object') ? ExactMetricsExcludeQuery : ExactMetricsDefaultLocations;
+				}
+
+								var disableStrs = [
+										'ga-disable-G-D1K35XJM9S',
+									];
+
+				/* Function to detect opted out users */
+				function __gtagTrackerIsOptedOut() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						if (document.cookie.indexOf(disableStrs[index] + '=true') > -1) {
+							return true;
+						}
+					}
+
+					return false;
+				}
+
+				/* Disable tracking if the opt-out cookie exists. */
+				if (__gtagTrackerIsOptedOut()) {
+					for (var index = 0; index < disableStrs.length; index++) {
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				/* Opt-out function */
+				function __gtagTrackerOptout() {
+					for (var index = 0; index < disableStrs.length; index++) {
+						document.cookie = disableStrs[index] + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+						window[disableStrs[index]] = true;
+					}
+				}
+
+				if ('undefined' === typeof gaOptout) {
+					function gaOptout() {
+						__gtagTrackerOptout();
+					}
+				}
+								window.dataLayer = window.dataLayer || [];
+
+				window.ExactMetricsDualTracker = {
+					helpers: {},
+					trackers: {},
+				};
+				if (em_track_user) {
+					function __gtagDataLayer() {
+						dataLayer.push(arguments);
+					}
+
+					function __gtagTracker(type, name, parameters) {
+						if (!parameters) {
+							parameters = {};
+						}
+
+						if (parameters.send_to) {
+							__gtagDataLayer.apply(null, arguments);
+							return;
+						}
+
+						if (type === 'event') {
+														parameters.send_to = exactmetrics_frontend.v4_id;
+							var hookName = name;
+							if (typeof parameters['event_category'] !== 'undefined') {
+								hookName = parameters['event_category'] + ':' + name;
+							}
+
+							if (typeof ExactMetricsDualTracker.trackers[hookName] !== 'undefined') {
+								ExactMetricsDualTracker.trackers[hookName](parameters);
+							} else {
+								__gtagDataLayer('event', name, parameters);
+							}
+							
+						} else {
+							__gtagDataLayer.apply(null, arguments);
+						}
+					}
+
+					__gtagTracker('js', new Date());
+					__gtagTracker('set', {
+						'developer_id.dNDMyYj': true,
+											});
+					if ( ExactMetricsLocations.page_location ) {
+						__gtagTracker('set', ExactMetricsLocations);
+					}
+										__gtagTracker('config', 'G-D1K35XJM9S', {"forceSSL":"true","page_path":'\/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer} );
+															window.gtag = __gtagTracker;										(function () {
+						/* https://developers.google.com/analytics/devguides/collection/analyticsjs/ */
+						/* ga and __gaTracker compatibility shim. */
+						var noopfn = function () {
+							return null;
+						};
+						var newtracker = function () {
+							return new Tracker();
+						};
+						var Tracker = function () {
+							return null;
+						};
+						var p = Tracker.prototype;
+						p.get = noopfn;
+						p.set = noopfn;
+						p.send = function () {
+							var args = Array.prototype.slice.call(arguments);
+							args.unshift('send');
+							__gaTracker.apply(null, args);
+						};
+						var __gaTracker = function () {
+							var len = arguments.length;
+							if (len === 0) {
+								return;
+							}
+							var f = arguments[len - 1];
+							if (typeof f !== 'object' || f === null || typeof f.hitCallback !== 'function') {
+								if ('send' === arguments[0]) {
+									var hitConverted, hitObject = false, action;
+									if ('event' === arguments[1]) {
+										if ('undefined' !== typeof arguments[3]) {
+											hitObject = {
+												'eventAction': arguments[3],
+												'eventCategory': arguments[2],
+												'eventLabel': arguments[4],
+												'value': arguments[5] ? arguments[5] : 1,
+											}
+										}
+									}
+									if ('pageview' === arguments[1]) {
+										if ('undefined' !== typeof arguments[2]) {
+											hitObject = {
+												'eventAction': 'page_view',
+												'page_path': arguments[2],
+											}
+										}
+									}
+									if (typeof arguments[2] === 'object') {
+										hitObject = arguments[2];
+									}
+									if (typeof arguments[5] === 'object') {
+										Object.assign(hitObject, arguments[5]);
+									}
+									if ('undefined' !== typeof arguments[1].hitType) {
+										hitObject = arguments[1];
+										if ('pageview' === hitObject.hitType) {
+											hitObject.eventAction = 'page_view';
+										}
+									}
+									if (hitObject) {
+										action = 'timing' === arguments[1].hitType ? 'timing_complete' : hitObject.eventAction;
+										hitConverted = mapArgs(hitObject);
+										__gtagTracker('event', action, hitConverted);
+									}
+								}
+								return;
+							}
+
+							function mapArgs(args) {
+								var arg, hit = {};
+								var gaMap = {
+									'eventCategory': 'event_category',
+									'eventAction': 'event_action',
+									'eventLabel': 'event_label',
+									'eventValue': 'event_value',
+									'nonInteraction': 'non_interaction',
+									'timingCategory': 'event_category',
+									'timingVar': 'name',
+									'timingValue': 'value',
+									'timingLabel': 'event_label',
+									'page': 'page_path',
+									'location': 'page_location',
+									'title': 'page_title',
+									'referrer' : 'page_referrer',
+								};
+								for (arg in args) {
+																		if (!(!args.hasOwnProperty(arg) || !gaMap.hasOwnProperty(arg))) {
+										hit[gaMap[arg]] = args[arg];
+									} else {
+										hit[arg] = args[arg];
+									}
+								}
+								return hit;
+							}
+
+							try {
+								f.hitCallback();
+							} catch (ex) {
+							}
+						};
+						__gaTracker.create = newtracker;
+						__gaTracker.getByName = newtracker;
+						__gaTracker.getAll = function () {
+							return [];
+						};
+						__gaTracker.remove = noopfn;
+						__gaTracker.loaded = true;
+						window['__gaTracker'] = __gaTracker;
+					})();
+									} else {
+										console.log("");
+					(function () {
+						function __gtagTracker() {
+							return null;
+						}
+
+						window['__gtagTracker'] = __gtagTracker;
+						window['gtag'] = __gtagTracker;
+					})();
+									}
+			</script>
+				<!-- / Google Analytics by ExactMetrics -->
+		<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/bor.rs\/wp-includes\/js\/wp-emoji-release.min.js?ver=66c641e8b261c3b788b76e2dd665e516"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<style id='wp-emoji-styles-inline-css' type='text/css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://bor.rs/wp-includes/css/dist/block-library/style.min.css?ver=66c641e8b261c3b788b76e2dd665e516' type='text/css' media='all' />
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='owl.carousel.css-css' href='https://bor.rs/wp-content/plugins/showcase-visual-composer-addon/assets/css/owl.carousel.min.css?ver=1.3.3' type='text/css' media='' />
+<link rel='stylesheet' id='owl.theme.css-css' href='https://bor.rs/wp-content/plugins/showcase-visual-composer-addon/assets/css/owl.theme.min.css?ver=1.3.3' type='text/css' media='' />
+<link rel='stylesheet' id='sc.vc.addon.style-css' href='https://bor.rs/wp-content/plugins/showcase-visual-composer-addon/assets/css/style.min.css?ver=1.0.4' type='text/css' media='' />
+<link rel='stylesheet' id='wpah-front-styles-css' href='https://bor.rs/wp-content/plugins/wp-accessibility-helper/assets/css/wp-accessibility-helper.min.css?ver=0.5.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='main-style-css' href='https://bor.rs/wp-content/themes/townpress/style.css' type='text/css' media='all' />
+<style id='main-style-inline-css' type='text/css'>
+body { font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; font-weight: ; }
+ .header-branding.m-large-logo span { max-width: 225px; } .header-branding.m-small-logo span { max-width: 303px; } @media ( max-width: 991px ) { .header-branding.m-small-logo span, .header-branding.m-large-logo span { max-width: 303px; } }
+.sidebar .widget-inner.m-has-bg { background-image: url( 'https://bor.rs/wp-content/uploads/2018/01/22219089_10213090274227387_783858750_o.jpg'); }
+</style>
+<link rel='stylesheet' id='theme-skin-css' href='https://bor.rs/wp-content/themes/townpress/library/css/skin/blue.css' type='text/css' media='all' />
+<style id='theme-skin-inline-css' type='text/css'>
+.c-article-list .article-image a {
+    display: block;
+    margin: 0 0 12px 0;
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+.blockquote {
+    font-size: 1.1em;
+    font-style: italic;
+}
+</style>
+<link rel='stylesheet' id='cw-erpv-widget-styles-css' href='https://bor.rs/wp-content/plugins/extensive-recent-posts-widget/css/widget.css?ver=66c641e8b261c3b788b76e2dd665e516' type='text/css' media='all' />
+<link rel='stylesheet' id='tablepress-default-css' href='https://bor.rs/wp-content/plugins/tablepress/css/build/default.css?ver=2.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='cf7cf-style-css' href='https://bor.rs/wp-content/plugins/cf7-conditional-fields/style.css?ver=2.4.13' type='text/css' media='all' />
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700,800,300italic,400italic,500italic,600italic,700italic,800italic&#038;display=swap&#038;ver=6.5.5" /><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700,800,300italic,400italic,500italic,600italic,700italic,800italic&#038;display=swap&#038;ver=6.5.5" media="print" onload="this.media='all'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans:300,400,500,600,700,800,300italic,400italic,500italic,600italic,700italic,800italic&#038;display=swap&#038;ver=6.5.5" /></noscript><script type="text/javascript" src="https://bor.rs/wp-content/plugins/google-analytics-dashboard-for-wp/assets/js/frontend-gtag.min.js?ver=7.28.0" id="exactmetrics-frontend-script-js"></script>
+<script data-cfasync="false" data-wpfc-render="false" type="text/javascript" id='exactmetrics-frontend-script-js-extra'>/* <![CDATA[ */
+var exactmetrics_frontend = {"js_events_tracking":"true","download_extensions":"zip,mp3,mpeg,pdf,docx,pptx,xlsx,rar","inbound_paths":"[{\"path\":\"\\\/go\\\/\",\"label\":\"affiliate\"},{\"path\":\"\\\/recommend\\\/\",\"label\":\"affiliate\"}]","home_url":"https:\/\/bor.rs","hash_tracking":"false","v4_id":"G-D1K35XJM9S"};/* ]]> */
+</script>
+<script type="text/javascript" src="https://bor.rs/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://bor.rs/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://bor.rs/wp-content/plugins/extensive-recent-posts-widget/js/widget.js?ver=66c641e8b261c3b788b76e2dd665e516" id="cw-erpv-script-js"></script>
+<link rel="https://api.w.org/" href="https://bor.rs/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://bor.rs/xmlrpc.php?rsd" />
+<meta name="generator" content="Redux 4.4.17" /><meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://bor.rs/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]--><!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://bor.rs/wp-content/themes/townpress/library/css/oldie.css"><![endif]--><!--[if lt IE 9]><script src="https://bor.rs/wp-content/themes/townpress/library/js/html5.min.js"></script><![endif]--><!--[if lt IE 9]><script src="https://bor.rs/wp-content/themes/townpress/library/js/respond.min.js"></script><![endif]--><noscript><style type="text/css"> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript></head>
+
+
+
+<body data-rsssl=1 class="error404  m-has-header-bg gecko windows wp-accessibility-helper accessibility-contrast_mode_on wah_fstype_zoom accessibility-remove-styles-setup accessibility-underline-setup accessibility-location-right wpb-js-composer js-comp-ver-5.4.5 vc_responsive">
+
+	
+	<!-- HEADER : begin -->
+	<header id="header" class="m-has-header-tools m-has-search">
+		<div class="header-inner">
+
+			<!-- HEADER CONTENT : begin -->
+			<div class="header-content">
+				<div class="c-container">
+					<div class="header-content-inner">
+
+												<!-- HEADER BRANDING : begin -->
+
+																															<div class="header-branding m-large-logo">
+
+							<a href="https://bor.rs"><span><img src="https://bor.rs/wp-content/uploads/2015/05/bor-grb-3.png"
+														alt="Grad Bor"></span></a>
+
+						</div>
+						<!-- HEADER BRANDING : end -->
+						
+						<!-- HEADER TOGGLE HOLDER : begin -->
+						<div class="header-toggle-holder">
+
+							<!-- HEADER TOGGLE : begin -->
+							<button class="header-toggle" type="button">
+								<i class="ico-open tp tp-menu"></i>
+								<i class="ico-close tp tp-cross"></i>
+								<span>Menu</span>
+							</button>
+							<!-- HEADER TOGGLE : end -->
+
+							
+						</div>
+						<!-- HEADER TOGGLE HOLDER : end -->
+
+												<!-- HEADER MENU : begin -->
+						<div class="header-menu">
+							
+	<!-- MAIN MENU : begin -->
+	<nav class="main-menu">
+
+		<ul id="menu-novi-meni" class="menu-items clearfix"><li id="menu-item-3927" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3927"><a href="https://bor.rs/">Naslovna</a></li>
+<li id="menu-item-9399" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-9399"><a href="https://bor.rs/o-boru/">O Boru</a>
+<ul class="sub-menu">
+	<li id="menu-item-6827" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6827"><a href="https://bor.rs/licna-karta-grada/">Lična karta grada</a></li>
+	<li id="menu-item-33019" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33019"><a href="https://bor.rs/obelezja-grada-bora/">Obeležja grada Bora</a></li>
+	<li id="menu-item-33585" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33585"><a href="https://bor.rs/wp-content/uploads/2023/08/STATUT-GRADA-BORA-2019.pdf">Statut grada Bora</a></li>
+	<li id="menu-item-6829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6829"><a href="https://bor.rs/istorijski-razvoj/">Istorijski razvoj</a></li>
+	<li id="menu-item-9348" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9348"><a href="https://bor.rs/dan-grada/">Dan grada</a></li>
+</ul>
+</li>
+<li id="menu-item-3929" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3929"><a href="#">Info</a>
+<ul class="sub-menu">
+	<li id="menu-item-4029" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4029"><a href="https://bor.rs/category/vesti/">Vesti</a></li>
+	<li id="menu-item-9526" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9526"><a href="https://bor.rs/obavestenja/">Obaveštenja</a></li>
+	<li id="menu-item-9541" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9541"><a href="https://bor.rs/javne-rasprave/">Javne rasprave</a></li>
+	<li id="menu-item-4028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4028"><a href="https://bor.rs/konkursi/">Konkursi</a></li>
+	<li id="menu-item-10695" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10695"><a href="https://bor.rs/odluke-so-bor/">Odluke</a></li>
+	<li id="menu-item-9620" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9620"><a href="https://bor.rs/oglasi/">Oglasi</a></li>
+</ul>
+</li>
+<li id="menu-item-23397" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-23397"><a href="#">PRIVREDA</a>
+<ul class="sub-menu">
+	<li id="menu-item-23520" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23520"><a href="https://bor.rs/vesti-privreda/">Privreda u Boru | Najnovije vesti</a></li>
+	<li id="menu-item-23398" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23398"><a href="https://bor.rs/investiraj-u-bor/">Investiraj u Bor</a></li>
+	<li id="menu-item-23509" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23509"><a href="https://bor.rs/sektori-deltnosti/">Sektori/Deltnosti</a></li>
+	<li id="menu-item-23497" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23497"><a href="https://bor.rs/informacije/">Informacije</a></li>
+	<li id="menu-item-23474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23474"><a href="https://bor.rs/privredni-savet/">Privredni savet</a></li>
+	<li id="menu-item-23488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23488"><a href="https://bor.rs/podrska/">Podrška</a></li>
+	<li id="menu-item-23501" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23501"><a href="https://bor.rs/radna-snaga/">Radna snaga</a></li>
+</ul>
+</li>
+<li id="menu-item-3930" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3930"><a href="#">Lokalna samouprava</a>
+<ul class="sub-menu">
+	<li id="menu-item-4036" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4036"><a href="https://bor.rs/gradonacelnik/">Gradonačelnik</a></li>
+	<li id="menu-item-4037" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4037"><a href="https://bor.rs/gradsko-vece/">Gradsko veće</a></li>
+	<li id="menu-item-4038" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4038"><a href="https://bor.rs/skupstina-grada/">Skupština grada</a></li>
+	<li id="menu-item-4040" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4040"><a href="https://bor.rs/organizacija/">Gradska uprava</a>
+	<ul class="sub-menu">
+		<li id="menu-item-9412" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9412"><a href="https://bor.rs/organizacija/">Organizacija</a></li>
+		<li id="menu-item-9503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9503"><a href="https://bor.rs/odeljenje-za-finansije/">Odeljenje za finansije i javne nabavke</a></li>
+		<li id="menu-item-6527" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6527"><a href="https://bor.rs/urbanizam/">Odeljenje za urbanizam, građevinske, komunalne, imovinsko-pravne i stambene poslove</a></li>
+		<li id="menu-item-6528" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6528"><a href="https://bor.rs/odsek-za-privredne-delatnosti/">Odeljenje za privredu i društvene delatnosti</a></li>
+		<li id="menu-item-6529" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6529"><a href="https://bor.rs/lokalna-poreska-administracija/">Odeljenje lokalne poreske administracije</a></li>
+		<li id="menu-item-6530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6530"><a href="https://bor.rs/odeljenje-za-upravu-i-opste-poslove/">Odeljenje za upravu i opšte poslove</a></li>
+		<li id="menu-item-6532" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6532"><a href="https://bor.rs/odeljenje-za-inspekcijske-poslove/">Odeljenje za inspekcijske poslove</a></li>
+		<li id="menu-item-6533" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6533"><a href="https://bor.rs/sluzba-za-skupstinske-poslove/">Služba za skupštinske poslove</a></li>
+		<li id="menu-item-6534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6534"><a href="https://bor.rs/kabinet-gradonacelnika/">Kabinet gradonačelnika</a></li>
+	</ul>
+</li>
+	<li id="menu-item-9386" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9386"><a href="https://bor.rs/graficki-prikaz/">Grafički prikaz</a></li>
+</ul>
+</li>
+<li id="menu-item-3933" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3933"><a href="https://bor.rs/%d0%bf%d1%80%d0%b5%d0%b4%d1%83%d0%b7%d0%b5%d1%9b%d0%b0-%d0%b8-%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%b5/">Preduzeća i ustanove</a></li>
+<li id="menu-item-9517" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9517"><a href="#">Dokumenta</a>
+<ul class="sub-menu">
+	<li id="menu-item-9482" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9482"><a href="https://bor.rs/informator-o-radu/">Informator o radu</a></li>
+	<li id="menu-item-33221" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33221"><a href="https://bor.rs/politika-kvaliteta-iso-90012015/">Politika kvaliteta – ISO 9001:2015</a></li>
+	<li id="menu-item-9481" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9481"><a href="https://bor.rs/pravilnik-o-sistematizaciji-radnih-mesta/">Pravilnik o sistematizaciji radnih mesta</a></li>
+	<li id="menu-item-31389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31389"><a href="https://bor.rs/resenje-o-odredjivanju-sluzbenih-lica-za-vodjenje-upravnog-postupka/">Službena lica za vođenje upravnog postupka</a></li>
+	<li id="menu-item-19839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19839"><a href="https://bor.rs/informacije-o-zaposlenim-i-radno-angazovanim-licima/">Informacije o zaposlenim i radno angažovanim licima</a></li>
+	<li id="menu-item-10559" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10559"><a href="https://bor.rs/nacelnik/">Načelnik</a></li>
+	<li id="menu-item-9484" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9484"><a href="https://bor.rs/sednice-gradskog-veca/">Sednice Gradskog veća</a></li>
+	<li id="menu-item-9483" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9483"><a href="https://bor.rs/sednice-skupstine-grada/">Sednice Skupštine grada</a></li>
+	<li id="menu-item-9494" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9494"><a href="https://bor.rs/finansije-i-budzet/">Finansije i budžet</a></li>
+	<li id="menu-item-9479" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9479"><a href="https://bor.rs/urbanizam-dok/">Urbanizam dokumentacija</a></li>
+	<li id="menu-item-9478" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9478"><a href="https://bor.rs/komunalni-poslovi/">Komunalni poslovi</a></li>
+	<li id="menu-item-9477" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9477"><a href="https://bor.rs/imovinsko-pravni-i-stambeni-poslovi/">Imovinsko-pravni i stambeni poslovi</a></li>
+	<li id="menu-item-9476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9476"><a href="https://bor.rs/odsek-za-privredu/">Odsek za privredu</a></li>
+	<li id="menu-item-11119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11119"><a href="https://bor.rs/kancelarija-za-lokalni-ekonomski-razvoj/">Kancelarija za lokalni ekonomski razvoj</a></li>
+	<li id="menu-item-34594" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34594"><a href="https://bor.rs/savet-za-bezbednost-saobracaja/">Savet za bezbednost saobraćaja</a></li>
+	<li id="menu-item-9507" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9507"><a href="https://bor.rs/odsek-za-drustvene-delatnosti/">Odsek za društvene delatnosti</a></li>
+	<li id="menu-item-9491" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9491"><a href="https://bor.rs/ekologija/">Ekologija</a></li>
+	<li id="menu-item-23160" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23160"><a href="https://bor.rs/interna-revizija/">Interna revizija</a></li>
+	<li id="menu-item-9474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9474"><a href="https://bor.rs/lokalna-poreska-administracija-dok/">Lokalna poreska administracija dok.</a></li>
+	<li id="menu-item-9473" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9473"><a href="https://bor.rs/inspekcijski-poslovi/">Inspekcijski poslovi</a></li>
+	<li id="menu-item-9472" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9472"><a href="https://bor.rs/maticna-sluzba-dok/">Matična služba dok.</a></li>
+	<li id="menu-item-17764" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17764"><a href="https://bor.rs/biracki-spisak/">Birački spisak dok.</a></li>
+	<li id="menu-item-26561" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26561"><a href="https://bor.rs/bezbednost-i-zdravlje-na-radu/">Bezbednost i zdravlje na radu</a></li>
+</ul>
+</li>
+<li id="menu-item-6831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6831"><a href="https://bor.rs/sluzbeni-list/">Službeni list</a>
+<ul class="sub-menu">
+	<li id="menu-item-6832" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6832"><a href="https://bor.rs/sl-2008/">SL 2007</a></li>
+	<li id="menu-item-6833" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6833"><a href="https://bor.rs/sl-2008-2/">SL 2008</a></li>
+	<li id="menu-item-6834" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6834"><a href="https://bor.rs/sl-2009/">SL 2009</a></li>
+	<li id="menu-item-6835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6835"><a href="https://bor.rs/sl-2010/">SL 2010</a></li>
+	<li id="menu-item-6836" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6836"><a href="https://bor.rs/sl-2011/">SL 2011</a></li>
+	<li id="menu-item-6837" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6837"><a href="https://bor.rs/sl-2012/">SL 2012</a></li>
+	<li id="menu-item-6838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6838"><a href="https://bor.rs/sl-2013/">SL 2013</a></li>
+	<li id="menu-item-6839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6839"><a href="https://bor.rs/sl-2014/">SL 2014</a></li>
+	<li id="menu-item-6840" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6840"><a href="https://bor.rs/sl-2015/">SL 2015</a></li>
+	<li id="menu-item-6841" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6841"><a href="https://bor.rs/sl-2016/">SL 2016</a></li>
+	<li id="menu-item-6842" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6842"><a href="https://bor.rs/%d1%81%d0%bb-2017/">SL 2017</a></li>
+	<li id="menu-item-6843" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6843"><a href="https://bor.rs/sl-2018/">SL 2018</a></li>
+	<li id="menu-item-9349" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9349"><a href="https://bor.rs/sl-2019/">SL 2019</a></li>
+	<li id="menu-item-11804" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11804"><a href="https://bor.rs/sl-2020/">SL 2020</a></li>
+	<li id="menu-item-19336" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19336"><a href="https://bor.rs/sl-2021/">SL 2021</a></li>
+	<li id="menu-item-24902" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24902"><a href="https://bor.rs/sl-2022/">SL 2022</a></li>
+	<li id="menu-item-30761" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30761"><a href="https://bor.rs/sl-2023/">SL 2023</a></li>
+	<li id="menu-item-34989" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34989"><a href="https://bor.rs/sl-2024/">SL 2024</a></li>
+</ul>
+</li>
+<li id="menu-item-30706" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30706"><a href="https://bor.rs/javne-nabavke/">JAVNE NABAVKE</a></li>
+<li id="menu-item-31391" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-31391"><a href="#">IZBORI</a>
+<ul class="sub-menu">
+	<li id="menu-item-34469" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34469"><a href="https://bor.rs/izbori-2023/">Izbori 2023</a></li>
+	<li id="menu-item-31392" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31392"><a href="https://bor.rs/izbori-2022/">Izbori 2022</a></li>
+	<li id="menu-item-31393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31393"><a href="https://bor.rs/referendum/">Referendum</a></li>
+	<li id="menu-item-31394" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31394"><a href="https://bor.rs/izbori-2020/">Izbori 2020</a></li>
+	<li id="menu-item-31402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31402"><a href="https://bor.rs/lokalni-izbori-bor-2018/">Lokalni Izbori Bor 2018</a></li>
+</ul>
+</li>
+<li id="menu-item-3936" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3936"><a href="#">Kontakt</a>
+<ul class="sub-menu">
+	<li id="menu-item-20594" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20594"><a href="https://bor.rs/mesne-zajednice/">Mesne zajednice</a></li>
+	<li id="menu-item-9378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9378"><a href="https://bor.rs/imenik/">Imenik</a></li>
+	<li id="menu-item-6830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6830"><a href="https://bor.rs/pitajte-gradonacelnika/">Pitajte Gradonačelnika</a></li>
+</ul>
+</li>
+</ul>
+	</nav>
+	<!-- MAIN MENU : end -->
+
+						</div>
+						<!-- HEADER MENU : end -->
+						
+												<!-- HEADER TOOLS : begin -->
+						<div class="header-tools">
+
+														<!-- HEADER SEARCH : begin -->
+							<div class="header-search">
+								
+	<!-- STANDARD SEARCH FORM : begin -->
+	<form class="c-search-form" action="https://bor.rs/" method="get">
+		<div class="form-fields">
+			<input type="text" name="s" placeholder="Pretraga" value="">
+			<button class="submit-btn" type="submit"><i class="tp tp-magnifier"></i></button>
+		</div>
+	</form>
+	<!-- STANDARD SEARCH FORM : end -->
+
+
+
+
+
+							</div>
+							<!-- HEADER SEARCH : end -->
+							
+							
+							
+							
+						</div>
+						<!-- HEADER TOOLS : end -->
+						
+					</div>
+				</div>
+
+			</div>
+			<!-- HEADER CONTENT : end -->
+
+			
+		</div>
+	</header>
+	<!-- HEADER : end -->
+
+	<!-- HEADER BG : begin -->
+	<div class="header-bg">
+
+		<!-- HEADER IMAGE : begin -->
+		<div class="header-image" data-autoplay="5">
+						
+			
+							<div class="image-layer" style="background-image: url( 'https://bor.rs/wp-content/uploads/2023/01/dan-grada-vizual-02a-no-grb.jpg' );"></div>
+			
+		</div>
+		<!-- HEADER IMAGE : begin -->
+
+	</div>
+	<!-- HEADER BG : end -->
+
+	<!-- CORE : begin -->
+	<div id="core" class="post-36821 post type-post status-publish format-standard has-post-thumbnail hentry category-vesti">
+		<div class="c-container">
+
+	
+
+	
+	
+<div class="row">
+
+	<div class="col-md-9 middle-column col-md-push-3">
+
+	
+
+				
+
+	
+	<!-- PAGE HEADER : begin -->
+	<div id="page-header" class=" m-has-breadcrumbs">
+
+		<!-- PAGE TITLE : begin -->
+		<div class="page-title"><h1>Page Not Found</h1></div>
+		<!-- PAGE TITLE : end -->
+
+				<!-- BREADCRUMBS : begin -->
+<div class="breadcrumbs"><ul>
+
+
+			<li class="home"><a href="https://bor.rs">Naslovna</a></li>
+	
+
+	
+
+	<li>Page Not Found</li>
+
+
+</ul></div>
+<!-- BREADCRUMBS : end -->		
+	</div>
+	<!-- PAGE HEADER : end -->
+
+
+<!-- PAGE CONTENT : begin -->
+<div id="page-content">
+	<div class="error-404-page">
+		<div class="c-content-box">
+			The page you are looking for is no longer available or has been moved		</div>
+	</div>
+</div>
+<!-- PAGE CONTENT : end -->
+
+
+	
+
+	
+	
+	<hr class="c-separator m-margin-top-small m-margin-bottom-small m-transparent hidden-lg hidden-md">
+
+</div>
+
+
+<div class="col-md-3 left-column col-md-pull-9">
+
+			<div class="side-menu m-left-side m-show-submenu">
+			
+	<!-- MAIN MENU : begin -->
+	<nav class="main-menu">
+
+		<ul id="menu-novi-meni-1" class="menu-items clearfix"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3927"><a href="https://bor.rs/">Naslovna</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-9399"><a href="https://bor.rs/o-boru/">O Boru</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6827"><a href="https://bor.rs/licna-karta-grada/">Lična karta grada</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33019"><a href="https://bor.rs/obelezja-grada-bora/">Obeležja grada Bora</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33585"><a href="https://bor.rs/wp-content/uploads/2023/08/STATUT-GRADA-BORA-2019.pdf">Statut grada Bora</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6829"><a href="https://bor.rs/istorijski-razvoj/">Istorijski razvoj</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9348"><a href="https://bor.rs/dan-grada/">Dan grada</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3929"><a href="#">Info</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4029"><a href="https://bor.rs/category/vesti/">Vesti</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9526"><a href="https://bor.rs/obavestenja/">Obaveštenja</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9541"><a href="https://bor.rs/javne-rasprave/">Javne rasprave</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4028"><a href="https://bor.rs/konkursi/">Konkursi</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10695"><a href="https://bor.rs/odluke-so-bor/">Odluke</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9620"><a href="https://bor.rs/oglasi/">Oglasi</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-23397"><a href="#">PRIVREDA</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23520"><a href="https://bor.rs/vesti-privreda/">Privreda u Boru | Najnovije vesti</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23398"><a href="https://bor.rs/investiraj-u-bor/">Investiraj u Bor</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23509"><a href="https://bor.rs/sektori-deltnosti/">Sektori/Deltnosti</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23497"><a href="https://bor.rs/informacije/">Informacije</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23474"><a href="https://bor.rs/privredni-savet/">Privredni savet</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23488"><a href="https://bor.rs/podrska/">Podrška</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23501"><a href="https://bor.rs/radna-snaga/">Radna snaga</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3930"><a href="#">Lokalna samouprava</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4036"><a href="https://bor.rs/gradonacelnik/">Gradonačelnik</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4037"><a href="https://bor.rs/gradsko-vece/">Gradsko veće</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4038"><a href="https://bor.rs/skupstina-grada/">Skupština grada</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4040"><a href="https://bor.rs/organizacija/">Gradska uprava</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9412"><a href="https://bor.rs/organizacija/">Organizacija</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9503"><a href="https://bor.rs/odeljenje-za-finansije/">Odeljenje za finansije i javne nabavke</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6527"><a href="https://bor.rs/urbanizam/">Odeljenje za urbanizam, građevinske, komunalne, imovinsko-pravne i stambene poslove</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6528"><a href="https://bor.rs/odsek-za-privredne-delatnosti/">Odeljenje za privredu i društvene delatnosti</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6529"><a href="https://bor.rs/lokalna-poreska-administracija/">Odeljenje lokalne poreske administracije</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6530"><a href="https://bor.rs/odeljenje-za-upravu-i-opste-poslove/">Odeljenje za upravu i opšte poslove</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6532"><a href="https://bor.rs/odeljenje-za-inspekcijske-poslove/">Odeljenje za inspekcijske poslove</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6533"><a href="https://bor.rs/sluzba-za-skupstinske-poslove/">Služba za skupštinske poslove</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6534"><a href="https://bor.rs/kabinet-gradonacelnika/">Kabinet gradonačelnika</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9386"><a href="https://bor.rs/graficki-prikaz/">Grafički prikaz</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3933"><a href="https://bor.rs/%d0%bf%d1%80%d0%b5%d0%b4%d1%83%d0%b7%d0%b5%d1%9b%d0%b0-%d0%b8-%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%b5/">Preduzeća i ustanove</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9517"><a href="#">Dokumenta</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9482"><a href="https://bor.rs/informator-o-radu/">Informator o radu</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33221"><a href="https://bor.rs/politika-kvaliteta-iso-90012015/">Politika kvaliteta – ISO 9001:2015</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9481"><a href="https://bor.rs/pravilnik-o-sistematizaciji-radnih-mesta/">Pravilnik o sistematizaciji radnih mesta</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31389"><a href="https://bor.rs/resenje-o-odredjivanju-sluzbenih-lica-za-vodjenje-upravnog-postupka/">Službena lica za vođenje upravnog postupka</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19839"><a href="https://bor.rs/informacije-o-zaposlenim-i-radno-angazovanim-licima/">Informacije o zaposlenim i radno angažovanim licima</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10559"><a href="https://bor.rs/nacelnik/">Načelnik</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9484"><a href="https://bor.rs/sednice-gradskog-veca/">Sednice Gradskog veća</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9483"><a href="https://bor.rs/sednice-skupstine-grada/">Sednice Skupštine grada</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9494"><a href="https://bor.rs/finansije-i-budzet/">Finansije i budžet</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9479"><a href="https://bor.rs/urbanizam-dok/">Urbanizam dokumentacija</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9478"><a href="https://bor.rs/komunalni-poslovi/">Komunalni poslovi</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9477"><a href="https://bor.rs/imovinsko-pravni-i-stambeni-poslovi/">Imovinsko-pravni i stambeni poslovi</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9476"><a href="https://bor.rs/odsek-za-privredu/">Odsek za privredu</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11119"><a href="https://bor.rs/kancelarija-za-lokalni-ekonomski-razvoj/">Kancelarija za lokalni ekonomski razvoj</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34594"><a href="https://bor.rs/savet-za-bezbednost-saobracaja/">Savet za bezbednost saobraćaja</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9507"><a href="https://bor.rs/odsek-za-drustvene-delatnosti/">Odsek za društvene delatnosti</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9491"><a href="https://bor.rs/ekologija/">Ekologija</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23160"><a href="https://bor.rs/interna-revizija/">Interna revizija</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9474"><a href="https://bor.rs/lokalna-poreska-administracija-dok/">Lokalna poreska administracija dok.</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9473"><a href="https://bor.rs/inspekcijski-poslovi/">Inspekcijski poslovi</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9472"><a href="https://bor.rs/maticna-sluzba-dok/">Matična služba dok.</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17764"><a href="https://bor.rs/biracki-spisak/">Birački spisak dok.</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26561"><a href="https://bor.rs/bezbednost-i-zdravlje-na-radu/">Bezbednost i zdravlje na radu</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6831"><a href="https://bor.rs/sluzbeni-list/">Službeni list</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6832"><a href="https://bor.rs/sl-2008/">SL 2007</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6833"><a href="https://bor.rs/sl-2008-2/">SL 2008</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6834"><a href="https://bor.rs/sl-2009/">SL 2009</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6835"><a href="https://bor.rs/sl-2010/">SL 2010</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6836"><a href="https://bor.rs/sl-2011/">SL 2011</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6837"><a href="https://bor.rs/sl-2012/">SL 2012</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6838"><a href="https://bor.rs/sl-2013/">SL 2013</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6839"><a href="https://bor.rs/sl-2014/">SL 2014</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6840"><a href="https://bor.rs/sl-2015/">SL 2015</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6841"><a href="https://bor.rs/sl-2016/">SL 2016</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6842"><a href="https://bor.rs/%d1%81%d0%bb-2017/">SL 2017</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6843"><a href="https://bor.rs/sl-2018/">SL 2018</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9349"><a href="https://bor.rs/sl-2019/">SL 2019</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11804"><a href="https://bor.rs/sl-2020/">SL 2020</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19336"><a href="https://bor.rs/sl-2021/">SL 2021</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24902"><a href="https://bor.rs/sl-2022/">SL 2022</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30761"><a href="https://bor.rs/sl-2023/">SL 2023</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34989"><a href="https://bor.rs/sl-2024/">SL 2024</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30706"><a href="https://bor.rs/javne-nabavke/">JAVNE NABAVKE</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-31391"><a href="#">IZBORI</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34469"><a href="https://bor.rs/izbori-2023/">Izbori 2023</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31392"><a href="https://bor.rs/izbori-2022/">Izbori 2022</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31393"><a href="https://bor.rs/referendum/">Referendum</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31394"><a href="https://bor.rs/izbori-2020/">Izbori 2020</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31402"><a href="https://bor.rs/lokalni-izbori-bor-2018/">Lokalni Izbori Bor 2018</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3936"><a href="#">Kontakt</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20594"><a href="https://bor.rs/mesne-zajednice/">Mesne zajednice</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9378"><a href="https://bor.rs/imenik/">Imenik</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6830"><a href="https://bor.rs/pitajte-gradonacelnika/">Pitajte Gradonačelnika</a></li>
+</ul>
+</li>
+</ul>
+	</nav>
+	<!-- MAIN MENU : end -->
+
+		</div>
+	
+	
+	
+
+	<!-- PRIMARY SIDEBAR : begin -->
+	<aside id="primary-sidebar" class="sidebar">
+		<div class="widget-list">
+
+			
+		<div id="lsvr_image_widget-3" class="widget lsvr-image"><div class="widget-inner">                        <div class="widget-content">
+
+								
+					
+											<a href="http://bor.kosava.net/">
+										<img src="https://bor.rs/wp-content/uploads/2024/06/baner_vazduh.png" alt="">
+											</a>
+					
+				
+            </div>
+		</div></div>
+        
+		<div id="lsvr_notices_widget-3" class="widget lsvr-notices"><div class="widget-inner">            <h3 class="widget-title m-has-ico"><i class="widget-ico tp tp-bullhorn"></i>Javni pozivi</h3>            <div class="widget-content">
+
+				
+													
+				
+					<ul>
+					
+						<li>
+							<div class="notice-inner">
+
+								<h4 class="notice-title"><a href="https://bor.rs/notices/poziv-bankama-za-dostavljanje-ponuda-za-deponovanje-likvidno-slobodnih-novcanih-sredstava-konsolidovanog-racuna-trezora-grada-bora-na-domacem-finansijskom-trzistu-novca-u-2024-godini/">POZIV BANKAMA ZA DOSTAVLJANJE PONUDA za deponovanje likvidno slobodnih novčanih sredstava konsolidovanog računa trezora grada Bora na domaćem finansijskom tržištu novca u 2024. godini</a></h4>
+								<span class="notice-date">11.07.2024.  - 14:34</span>
+
+																	<div class="notice-excerpt">
+																			</div>
+								
+							</div>
+						</li>
+
+					
+						<li>
+							<div class="notice-inner">
+
+								<h4 class="notice-title"><a href="https://bor.rs/notices/36866/">Javni uvid u Plan detaljne regulacije za izgradnju poveznog visokonaponskog voda 110 kV između TS 33/110 kV “VE Jasikovo” i postrojenja za skladištenje električne energije „Crni Vrh“ na teritoriji grada Bora</a></h4>
+								<span class="notice-date">11.07.2024.  - 14:00</span>
+
+																	<div class="notice-excerpt">
+																			</div>
+								
+							</div>
+						</li>
+
+					
+						<li>
+							<div class="notice-inner">
+
+								<h4 class="notice-title"><a href="https://bor.rs/notices/javni-poziv-za-dodelu-oktobarske-nagrade-grada-bora-2/">JAVNI POZIV ZA DODELU OKTOBARSKE NAGRADE GRADA BORA</a></h4>
+								<span class="notice-date">01.07.2024.  - 14:25</span>
+
+																	<div class="notice-excerpt">
+																			</div>
+								
+							</div>
+						</li>
+
+					
+						<li>
+							<div class="notice-inner">
+
+								<h4 class="notice-title"><a href="https://bor.rs/notices/javna-prezentacija-urbanistickog-projekta-za-potrebe-razrade-lokacije-nove-transformatorske-stanice-110-10-kv-ts-bor-7/">Javna prezentacija urbanističkog projekta za potrebe razrade lokacije nove transformatorske stanice 110/10 kV TS Bor 7</a></h4>
+								<span class="notice-date">24.06.2024.  - 07:58</span>
+
+																	<div class="notice-excerpt">
+																			</div>
+								
+							</div>
+						</li>
+
+					
+						<li>
+							<div class="notice-inner">
+
+								<h4 class="notice-title"><a href="https://bor.rs/notices/gradska-uprava-grada-bora-oglasava-javnu-prezentaciju-urbanistickog-projekta-za-potrebe-razrade-lokacije-novih-transformatorskih-stanica-110-10-kv-ts-bor-8-i-ts-bor-9-i-pripadajucih-dalekovoda110-10-k/">Gradska uprava grada Bora oglašava JAVNU PREZENTACIJU Urbanističkog projekta za potrebe razrade lokacije novih transformatorskih stanica 110/10 kV TS Bor 8 i TS Bor 9 i pripadajućih dalekovoda110/10 kV, na području grada Bora – KO Slatina</a></h4>
+								<span class="notice-date">18.06.2024.  - 11:10</span>
+
+																	<div class="notice-excerpt">
+																			</div>
+								
+							</div>
+						</li>
+
+										</ul>
+
+																	<p class="show-all-btn">
+							<a href="https://bor.rs/notice-category/javni-pozivi/">Prikaži sve</a>
+						</p>
+					
+				
+            </div>
+		</div></div>
+        
+		<div id="lsvr_notices_widget-9" class="widget lsvr-notices"><div class="widget-inner">            <h3 class="widget-title m-has-ico"><i class="widget-ico tp tp-bullhorn"></i>KONKURSI</h3>            <div class="widget-content">
+
+				
+													
+				
+					<ul>
+					
+						<li>
+							<div class="notice-inner">
+
+								<h4 class="notice-title"><a href="https://bor.rs/notices/konkurs-za-subvencionisanje-edukacija-iz-oblasti-poljoprivrede/">KONKURS ZA SUBVENCIONISANJE EDUKACIJA IZ OBLASTI POLJOPRIVREDE</a></h4>
+								<span class="notice-date">02.07.2024.  - 08:06</span>
+
+																	<div class="notice-excerpt">
+																			</div>
+								
+							</div>
+						</li>
+
+					
+						<li>
+							<div class="notice-inner">
+
+								<h4 class="notice-title"><a href="https://bor.rs/notices/konkurs-za-subvencionisanje-kupovine-kvalitetnih-priplodnih-grla-svinja-2/">KONKURS ZA SUBVENCIONISANJE KUPOVINE KVALITETNIH PRIPLODNIH GRLA SVINJA</a></h4>
+								<span class="notice-date">01.07.2024.  - 15:01</span>
+
+																	<div class="notice-excerpt">
+																			</div>
+								
+							</div>
+						</li>
+
+					
+						<li>
+							<div class="notice-inner">
+
+								<h4 class="notice-title"><a href="https://bor.rs/notices/konkurs-za-subvencionisanje-kupovine-kvalitetnih-priplodnih-grla-svinja/">KONKURS ZA SUBVENCIONISANJE KUPOVINE OPREME ZA MUŽU, HLAĐENJE I ČUVANJE MLEKA</a></h4>
+								<span class="notice-date">01.07.2024.  - 14:50</span>
+
+																	<div class="notice-excerpt">
+																			</div>
+								
+							</div>
+						</li>
+
+					
+						<li>
+							<div class="notice-inner">
+
+								<h4 class="notice-title"><a href="https://bor.rs/notices/resenje-o-izboru-projekata-i-dodeli-sredstava-za-finansiranje-ili-sufinansiranje-projekata-u-kulturi-iz-budzeta-grada-bora-u-2024-godini/">REŠENJE O IZBORU PROJEKATA I DODELI SREDSTAVA ZA FINANSIRANJE ILI SUFINANSIRANJE PROJEKATA U KULTURI IZ BUDŽETA GRADA BORA U 2024.GODINI</a></h4>
+								<span class="notice-date">14.06.2024.  - 13:36</span>
+
+																	<div class="notice-excerpt">
+																			</div>
+								
+							</div>
+						</li>
+
+					
+						<li>
+							<div class="notice-inner">
+
+								<h4 class="notice-title"><a href="https://bor.rs/notices/javni-konkurs-za-izbor-direktora-jkp-3-oktobar-bor/">Javni konkurs za izbor direktora JKP "3.Oktobar" Bor</a></h4>
+								<span class="notice-date">07.06.2024.  - 14:39</span>
+
+																	<div class="notice-excerpt">
+																			</div>
+								
+							</div>
+						</li>
+
+										</ul>
+
+																	<p class="show-all-btn">
+							<a href="https://bor.rs/notice-category/konkursi/">See All Notices</a>
+						</p>
+					
+				
+            </div>
+		</div></div>
+        
+		<div id="lsvr_documents_widget-2" class="widget lsvr-documents"><div class="widget-inner">            <h3 class="widget-title m-has-ico"><i class="widget-ico tp tp-papers"></i>Dokumenti</h3>            <div class="widget-content">
+
+								
+													
+				
+					<ul class="document-list m-has-icons">
+					
+												
+												<li class="document post-36821 post type-post status-publish format-standard has-post-thumbnail hentry category-vesti">
+						<div class="document-inner">
+
+							
+																																																																																																													
+														<div class="document-icon" title="PDF File"><i class="fa fa-file-pdf-o"></i></div>
+							
+							<h4 class="document-title">
+
+								
+									<a href="https://bor.rs/wp-content/uploads/2023/07/PolitikaKvaliteta475.pdf" target="_blank">POLITIKA KVALITETA GU BOR – ISO 9001:2015</a>
+									
+								
+							</h4>
+
+						</div>
+						</li>
+						
+					
+												
+												<li class="document post-36821 post type-post status-publish format-standard has-post-thumbnail hentry category-vesti">
+						<div class="document-inner">
+
+							
+																																																																																																													
+														<div class="document-icon" title=""><i class="fa fa-file-o"></i></div>
+							
+							<h4 class="document-title">
+
+								
+									<a href="https://bor.rs/wp-content/uploads/2023/06/LPUO-Bor-2023-2032.-FINAL.pdf" target="_blank">LOKALNI PLAN UPRAVLJANJA OTPADOM GRADA BORA OD 2023- 2032. GODINE</a>
+									
+								
+							</h4>
+
+						</div>
+						</li>
+						
+					
+												
+												<li class="document post-36821 post type-post status-publish format-standard has-post-thumbnail hentry category-vesti">
+						<div class="document-inner">
+
+							
+																																																																																																													
+														<div class="document-icon" title="Word Document"><i class="fa fa-file-word-o"></i></div>
+							
+							<h4 class="document-title">
+
+								
+									
+									<a href="https://bor.rs/wp-content/uploads/2023/03/lokalni-akcioni-plan.docx" target="_blank">Lokalni akcioni plan za unapređenje položaja izbeglih, interno raseljenih lica, povratnika po sporazumu o readmisiji, tražioca azila i migranata u gradu Boru za period 2019-2023. godine</a>
+																																							<span class="document-filesize">(83 kB)</span>
+									
+								
+							</h4>
+
+						</div>
+						</li>
+						
+					
+												
+												<li class="document post-36821 post type-post status-publish format-standard has-post-thumbnail hentry category-vesti">
+						<div class="document-inner">
+
+							
+																																																																																																													
+														<div class="document-icon" title=""><i class="fa fa-file-o"></i></div>
+							
+							<h4 class="document-title">
+
+								
+									
+									<a href="https://bor.rs/wp-content/uploads/2022/06/PROGRAM-POLJOPRIVREDA-2022..pdf" target="_blank">PROGRAM PODRŠKE ZA SPROVOĐENJE POLJOPRIVREDNE POLITIKE I POLITIKE RURALNOG RAZVOJA ZA PODRUČJE TERITORIJE GRADA BORA U 2022. GODINI</a>
+																																							<span class="document-filesize">(217 kB)</span>
+									
+								
+							</h4>
+
+						</div>
+						</li>
+						
+					
+												
+												<li class="document post-36821 post type-post status-publish format-standard has-post-thumbnail hentry category-vesti">
+						<div class="document-inner">
+
+							
+																																																																																																													
+														<div class="document-icon" title=""><i class="fa fa-file-o"></i></div>
+							
+							<h4 class="document-title">
+
+								
+									
+									<a href="https://bor.rs/wp-content/uploads/2022/01/LAP-RR.pdf" target="_blank">LOKALNI AKCIONI PLAN ZA RODNU RAVNOPRAVNOST GRADA BORA ZA PERIOD 2021-2024. GODINE</a>
+																																							<span class="document-filesize">(1 MB)</span>
+									
+								
+							</h4>
+
+						</div>
+						</li>
+						
+										</ul>
+
+																	<p class="show-all-btn">
+							<a href="https://bor.rs/document-category/strategije-i-lokalni-akcioni-planovi/">Svi dokumenti</a>
+						</p>
+					
+				
+            </div>
+		</div></div>
+        <div id="media_image-3" class="widget widget_media_image"><div class="widget-inner"><h3 class="widget-title">Elektronska pošta</h3><a href="https://bor.rs/webmail"><img width="300" height="81" src="https://bor.rs/wp-content/uploads/2021/07/baner-e-posta-300x81.jpg" class="image wp-image-22065  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" decoding="async" srcset="https://bor.rs/wp-content/uploads/2021/07/baner-e-posta-300x81.jpg 300w, https://bor.rs/wp-content/uploads/2021/07/baner-e-posta.jpg 357w" sizes="(max-width: 300px) 100vw, 300px" /></a></div></div>
+							
+		<div id="lsvr_locale_info_widget-2" class="widget lsvr-locale-info"><div class="widget-inner m-has-bg">            <h3 class="widget-title m-has-ico"><i class="widget-ico tp tp-map-marker"></i>Informacije o Boru</h3>            <div class="widget-content">
+				<ul>
+
+				
+				
+					
+																		<li class="m-loading">
+								<i class="fa fa-spinner fa-spin"></i>
+								<div class="row-title">
+																		<h4>subota</h4>
+									<small>13.07.2024.  - 00:00</small>
+								</div>
+								<div class="row-value">
+
+									<div class="local-weather-holder"
+										data-type="forecast"
+										data-timestamp="1720872000"
+										data-location-request="Bor, RS"
+										data-units-format="metric">
+
+										<i class="local-icon"></i>
+										<div class="local-temperature" title="Temperature"></div>
+										<small class="local-wind-speed" title="Wind speed"></small>
+
+									</div>
+
+								</div>
+							</li>
+											
+				
+				
+																							
+																
+								<li>
+									<div class="row-title"><h4>Budžet za 2024. godinu</h4></div>
+									<div class="row-value">7.802.836.448 rsd</div>
+								</li>
+
+																				
+																
+								<li>
+									<div class="row-title"><h4>Broj stanovnika (popis 2011.)</h4></div>
+									<div class="row-value">48.615</div>
+								</li>
+
+																				
+																
+								<li>
+									<div class="row-title"><h4>Broj birača (septembar 2023.)</h4></div>
+									<div class="row-value">39.990</div>
+								</li>
+
+																				
+																
+								<li>
+									<div class="row-title"><h4> Geografska širina</h4></div>
+									<div class="row-value">44° 04′ SGŠ</div>
+								</li>
+
+																				
+																
+								<li>
+									<div class="row-title"><h4>Površina opštine</h4></div>
+									<div class="row-value">856 km²</div>
+								</li>
+
+																				
+																
+								<li>
+									<div class="row-title"><h4> Geografska dužina</h4></div>
+									<div class="row-value">22° 05′ IGD</div>
+								</li>
+
+																				
+																
+								<li>
+									<div class="row-title"><h4>Pozivni broj</h4></div>
+									<div class="row-value">030</div>
+								</li>
+
+																				
+																
+								<li>
+									<div class="row-title"><h4>Poštanski broj</h4></div>
+									<div class="row-value">19210</div>
+								</li>
+
+																				
+																
+								<li>
+									<div class="row-title"><h4></h4></div>
+									<div class="row-value"></div>
+								</li>
+
+																		
+				
+				</ul>
+            </div>
+		</div></div>
+        
+		</div>
+	</aside>
+	<!-- PRIMARY SIDEBAR : end -->
+
+
+</div>
+
+
+</div>
+		</div>
+	</div>
+	<!-- CORE : end -->
+
+	<!-- FOOTER : begin -->
+	<footer id="footer" class="m-has-bg">
+		<div class="footer-bg" style="background-image: url( 'https://bor.rs/wp-content/uploads/2017/12/DJI_0005.jpg' );">
+			<div class="footer-inner">
+
+				<!-- FOOTER TOP : begin -->
+				<div class="footer-top">
+					<div class="c-container">
+
+						<!-- BOTTOM PANEL : begin -->
+<div id="bottom-panel" class="m-3-columns">
+	<div class="bottom-panel-inner">
+		<div class="row">
+
+			<div class="widget-col col-md-4"><div id="text-2" class="widget widget_text"><hr class="c-separator m-transparent hidden-lg hidden-md"><div class="widget-inner">			<div class="textwidget"><img class="alignleft size-full wp-image-54" src="  https://www.bor.rs/wp-content/uploads/2015/05/bor-grb-4.png"alt="bor-grb-4" width="76" height="53" />Grad Bor - Zvanična internet prezentacija sa svim bitnim podacima o gradu, a možete pronaći i kontakte svih značajnih institucija, javnih preduzeća i ustanova. Sajt je i zvanični informativni portal o aktivnostima lokalne samouprave, stanja u privredi, kulturi i sportu, sa online uslugama.</div>
+		</div></div></div>
+		<div class="widget-col col-md-4"><div id="lsvr_definition_list_widget-2" class="widget lsvr-definition-list"><hr class="c-separator m-transparent hidden-lg hidden-md"><div class="widget-inner">            <h3 class="widget-title m-has-ico"><i class="widget-ico tp tp-telephone"></i>Važni telefoni</h3>            <div class="widget-content">
+
+				<dl>
+																		<dt>Gradska uprava</dt>
+																											<dd>030/423-255</dd>
+																															<dt>Policija</dt>
+																											<dd>030/192</dd>
+																															<dt>Vatrogasci / Spasioci</dt>
+																											<dd>030/193</dd>
+																															<dt>Hitna pomoć</dt>
+																											<dd>030/194</dd>
+																																							</dl>
+
+				
+            </div>
+		</div></div></div>
+        <div class="widget-col col-md-4"><div id="text-3" class="widget widget_text"><hr class="c-separator m-transparent hidden-lg hidden-md"><div class="widget-inner"><h3 class="widget-title m-has-ico"><i class="widget-ico tp tp-envelope"></i>Grad Bor</h3>			<div class="textwidget">ulica: Moše Pijade br. 3,
+19210 Bor
+tel: +381 030/423-255</div>
+		</div></div></div>
+		</div>
+	</div>
+</div>
+<!-- BOTTOM PANEL : end -->
+
+					</div>
+				</div>
+				<!-- FOOTER TOP : end -->
+
+				<!-- FOOTER BOTTOM : begin -->
+				<div class="footer-bottom">
+					<div class="footer-bottom-inner">
+						<div class="c-container">
+
+							
+																								<!-- FOOTER SOCIAL : begin -->
+								<div class="footer-social">
+									<ul class="c-social-icons">
+										<li class="ico-facebook"><a href="https://www.facebook.com/Lokalna.samouprava.Bor" target="_blank"><i class="fa fa-facebook"></i></a></li><li class="ico-instagram"><a href="https://www.instagram.com/grad_bor/" target="_blank"><i class="fa fa-instagram"></i></a></li>									</ul>
+								</div>
+								<!-- FOOTER SOCIAL : end -->
+								
+							
+							
+														<!-- FOOTER TEXT : begin -->
+							<div class="footer-text">
+								<p>Autorska prava zadržava Grad Bor</p>
+							</div>
+							<!-- FOOTER TEXT : end -->
+							
+						</div>
+					</div>
+				</div>
+				<!-- FOOTER BOTTOM : end -->
+
+			</div>
+		</div>
+	</footer>
+	<!-- FOOTER : end -->
+
+	<var class="js-labels"
+		data-mp-tClose="Close (Esc)"
+		data-mp-tLoading="Loading..."
+		data-mp-tPrev="Previous (Left arrow key)"
+		data-mp-tNext="Next (Right arrow key)"
+		data-mp-image-tError="The image could not be loaded."
+		data-mp-ajax-tError="The content could not be loaded."
+		data-bbp-forum="Forum"
+		data-bbp-topic="Topic"
+		data-bbp-topics="Topics"
+		data-bbp-posts="Posts"
+		data-bbp-freshness="Freshness"
+		data-bbp-voices="Voices"
+		data-bbp-author="Author"></var>
+
+	<div class="gtranslate_wrapper" id="gt-wrapper-64907438"></div>
+
+<div id="wp_access_helper_container" class="accessability_container dark_theme">
+	<!-- WP Accessibility Helper (WAH) - https://wordpress.org/plugins/wp-accessibility-helper/ -->
+	<!-- Official plugin website - https://accessibility-helper.co.il -->
+		<button type="button" class="wahout aicon_link"
+		accesskey="z"
+		aria-label="Accessibility Helper sidebar"
+		title="Accessibility Helper sidebar">
+		<img src="https://bor.rs/wp-content/plugins/wp-accessibility-helper/assets/images/accessibility-48.jpg"
+			alt="Accessibility" class="aicon_image" />
+	</button>
+
+
+	<div id="access_container" aria-hidden="true">
+		<button tabindex="-1" type="button" class="close_container wahout"
+			accesskey="x"
+			aria-label="Zatvori"
+			title="Zatvori">
+			Zatvori		</button>
+
+		<div class="access_container_inner">
+			<div class="a_module wah_font_resize">
+
+            <div class="a_module_title">Promeni veličinu fonta</div>
+
+            <div class="a_module_exe font_resizer">
+
+                <button type="button" class="wah-action-button smaller wahout" title="smaller font size" aria-label="smaller font size">A-</button>
+
+                <button type="button" class="wah-action-button larger wahout" title="larger font size" aria-label="larger font size">A+</button>
+
+            </div>
+
+        </div><div class="a_module wah_keyboard_navigation">
+
+            <div class="a_module_exe">
+
+                <button type="button" class="wah-action-button wahout wah-call-keyboard-navigation" aria-label="Navigacija tastaturom" title="Navigacija tastaturom">Navigacija tastaturom</button>
+
+            </div>
+
+        </div><div class="a_module wah_readable_fonts">
+
+            <div class="a_module_exe readable_fonts">
+
+                <button type="button" class="wah-action-button wahout wah-call-readable-fonts" aria-label="Omogući čitljiv font" title="Omogući čitljiv font">Omogući čitljiv font</button>
+
+            </div>
+
+        </div><div class="a_module wah_contrast_trigger">
+
+                <div class="a_module_title">Kontrast</div>
+
+                <div class="a_module_exe">
+
+                    <button type="button" id="contrast_trigger" class="contrast_trigger wah-action-button wahout wah-call-contrast-trigger" title="Contrast">Izaberi boju</button>
+
+                    <div class="color_selector" aria-hidden="true">
+
+                        <button type="button" class="convar black wahout" data-bgcolor="#000" data-color="#FFF" title="black">black</button>
+
+                        <button type="button" class="convar white wahout" data-bgcolor="#FFF" data-color="#000" title="white">white</button>
+
+                        <button type="button" class="convar green wahout" data-bgcolor="#00FF21" data-color="#000" title="green">green</button>
+
+                        <button type="button" class="convar blue wahout" data-bgcolor="#0FF" data-color="#000" title="blue">blue</button>
+
+                        <button type="button" class="convar red wahout" data-bgcolor="#F00" data-color="#000" title="red">red</button>
+
+                        <button type="button" class="convar orange wahout" data-bgcolor="#FF6A00" data-color="#000" title="orange">orange</button>
+
+                        <button type="button" class="convar yellow wahout" data-bgcolor="#FFD800" data-color="#000" title="yellow">yellow</button>
+
+                        <button type="button" class="convar navi wahout" data-bgcolor="#B200FF" data-color="#000" title="navi">navi</button>
+
+                    </div>
+
+                </div>
+
+            </div><div class="a_module wah_underline_links">
+
+            <div class="a_module_exe">
+
+                <button type="button" class="wah-action-button wahout wah-call-underline-links" aria-label="Podvuci linkove" title="Podvuci linkove">Podvuci linkove</button>
+
+            </div>
+
+        </div><div class="a_module wah_highlight_links">
+
+            <div class="a_module_exe">
+
+                <button type="button" class="wah-action-button wahout wah-call-highlight-links" aria-label="Označi linkove" title="Označi linkove">Označi linkove</button>
+
+            </div>
+
+        </div><div class="a_module wah_clear_cookies">
+
+            <div class="a_module_exe">
+
+                <button type="button" class="wah-action-button wahout wah-call-clear-cookies" aria-label="Resetuj podešavanja" title="Resetuj podešavanja">Resetuj podešavanja</button>
+
+            </div>
+
+        </div><div class="a_module wah_invert">
+
+            <div class="a_module_exe">
+
+                <button type="button" class="wah-action-button wahout wah-call-invert" aria-label="Invertuj boje" title="Invertuj boje">Invertuj boje</button>
+
+            </div>
+
+        </div><div class="a_module wah_remove_animations">
+
+            <div class="a_module_exe">
+
+                <button type="button" class="wah-action-button wahout wah-call-remove-animations" aria-label="Ukloni animacije" title="Ukloni animacije">Ukloni animacije</button>
+
+            </div>
+
+        </div><div class="a_module wah_remove_styles">
+
+            <div class="a_module_exe">
+
+                <button type="button" class="wah-action-button wahout wah-call-remove-styles" aria-label="Ukloni stilove" title="Ukloni stilove">Ukloni stilove</button>
+
+            </div>
+
+        </div>			
+	<button type="button" title="Close sidebar" class="wah-skip close-wah-sidebar">
+
+		Zatvori
+	</button>
+
+			</div>
+	</div>
+
+	
+
+    <style media="screen">#access_container {font-family:Verdana, Geneva, sans-serif;}</style>
+
+
+
+	
+
+
+
+
+
+	
+	<div class="wah-free-credits">
+
+		<div class="wah-free-credits-inner">
+
+			<a href="https://accessibility-helper.co.il/" target="_blank" title="Accessibility by WP Accessibility Helper Team">Accessibility by WAH</a>
+
+		</div>
+
+	</div>
+
+		<!-- WP Accessibility Helper. Created by Alex Volkov. -->
+</div>
+
+
+    <nav class="wah-skiplinks-menu">
+    <!-- WP Accessibility Helper - Skiplinks Menu -->
+    <ul id="menu-novi-meni-2" class="wah-skipper"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-3927"><a href="https://bor.rs/">Naslovna</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-9399"><a href="https://bor.rs/o-boru/">O Boru</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6827"><a href="https://bor.rs/licna-karta-grada/">Lična karta grada</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33019"><a href="https://bor.rs/obelezja-grada-bora/">Obeležja grada Bora</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-33585"><a href="https://bor.rs/wp-content/uploads/2023/08/STATUT-GRADA-BORA-2019.pdf">Statut grada Bora</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6829"><a href="https://bor.rs/istorijski-razvoj/">Istorijski razvoj</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9348"><a href="https://bor.rs/dan-grada/">Dan grada</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3929"><a href="#">Info</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4029"><a href="https://bor.rs/category/vesti/">Vesti</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9526"><a href="https://bor.rs/obavestenja/">Obaveštenja</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9541"><a href="https://bor.rs/javne-rasprave/">Javne rasprave</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4028"><a href="https://bor.rs/konkursi/">Konkursi</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10695"><a href="https://bor.rs/odluke-so-bor/">Odluke</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9620"><a href="https://bor.rs/oglasi/">Oglasi</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-23397"><a href="#">PRIVREDA</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23520"><a href="https://bor.rs/vesti-privreda/">Privreda u Boru | Najnovije vesti</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23398"><a href="https://bor.rs/investiraj-u-bor/">Investiraj u Bor</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23509"><a href="https://bor.rs/sektori-deltnosti/">Sektori/Deltnosti</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23497"><a href="https://bor.rs/informacije/">Informacije</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23474"><a href="https://bor.rs/privredni-savet/">Privredni savet</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23488"><a href="https://bor.rs/podrska/">Podrška</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23501"><a href="https://bor.rs/radna-snaga/">Radna snaga</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3930"><a href="#">Lokalna samouprava</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4036"><a href="https://bor.rs/gradonacelnik/">Gradonačelnik</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4037"><a href="https://bor.rs/gradsko-vece/">Gradsko veće</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4038"><a href="https://bor.rs/skupstina-grada/">Skupština grada</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-4040"><a href="https://bor.rs/organizacija/">Gradska uprava</a>
+	<ul class="sub-menu">
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9412"><a href="https://bor.rs/organizacija/">Organizacija</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9503"><a href="https://bor.rs/odeljenje-za-finansije/">Odeljenje za finansije i javne nabavke</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6527"><a href="https://bor.rs/urbanizam/">Odeljenje za urbanizam, građevinske, komunalne, imovinsko-pravne i stambene poslove</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6528"><a href="https://bor.rs/odsek-za-privredne-delatnosti/">Odeljenje za privredu i društvene delatnosti</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6529"><a href="https://bor.rs/lokalna-poreska-administracija/">Odeljenje lokalne poreske administracije</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6530"><a href="https://bor.rs/odeljenje-za-upravu-i-opste-poslove/">Odeljenje za upravu i opšte poslove</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6532"><a href="https://bor.rs/odeljenje-za-inspekcijske-poslove/">Odeljenje za inspekcijske poslove</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6533"><a href="https://bor.rs/sluzba-za-skupstinske-poslove/">Služba za skupštinske poslove</a></li>
+		<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6534"><a href="https://bor.rs/kabinet-gradonacelnika/">Kabinet gradonačelnika</a></li>
+	</ul>
+</li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9386"><a href="https://bor.rs/graficki-prikaz/">Grafički prikaz</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3933"><a href="https://bor.rs/%d0%bf%d1%80%d0%b5%d0%b4%d1%83%d0%b7%d0%b5%d1%9b%d0%b0-%d0%b8-%d1%83%d1%81%d1%82%d0%b0%d0%bd%d0%be%d0%b2%d0%b5/">Preduzeća i ustanove</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-9517"><a href="#">Dokumenta</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9482"><a href="https://bor.rs/informator-o-radu/">Informator o radu</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33221"><a href="https://bor.rs/politika-kvaliteta-iso-90012015/">Politika kvaliteta – ISO 9001:2015</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9481"><a href="https://bor.rs/pravilnik-o-sistematizaciji-radnih-mesta/">Pravilnik o sistematizaciji radnih mesta</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31389"><a href="https://bor.rs/resenje-o-odredjivanju-sluzbenih-lica-za-vodjenje-upravnog-postupka/">Službena lica za vođenje upravnog postupka</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19839"><a href="https://bor.rs/informacije-o-zaposlenim-i-radno-angazovanim-licima/">Informacije o zaposlenim i radno angažovanim licima</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10559"><a href="https://bor.rs/nacelnik/">Načelnik</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9484"><a href="https://bor.rs/sednice-gradskog-veca/">Sednice Gradskog veća</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9483"><a href="https://bor.rs/sednice-skupstine-grada/">Sednice Skupštine grada</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9494"><a href="https://bor.rs/finansije-i-budzet/">Finansije i budžet</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9479"><a href="https://bor.rs/urbanizam-dok/">Urbanizam dokumentacija</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9478"><a href="https://bor.rs/komunalni-poslovi/">Komunalni poslovi</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9477"><a href="https://bor.rs/imovinsko-pravni-i-stambeni-poslovi/">Imovinsko-pravni i stambeni poslovi</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9476"><a href="https://bor.rs/odsek-za-privredu/">Odsek za privredu</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11119"><a href="https://bor.rs/kancelarija-za-lokalni-ekonomski-razvoj/">Kancelarija za lokalni ekonomski razvoj</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34594"><a href="https://bor.rs/savet-za-bezbednost-saobracaja/">Savet za bezbednost saobraćaja</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9507"><a href="https://bor.rs/odsek-za-drustvene-delatnosti/">Odsek za društvene delatnosti</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9491"><a href="https://bor.rs/ekologija/">Ekologija</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23160"><a href="https://bor.rs/interna-revizija/">Interna revizija</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9474"><a href="https://bor.rs/lokalna-poreska-administracija-dok/">Lokalna poreska administracija dok.</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9473"><a href="https://bor.rs/inspekcijski-poslovi/">Inspekcijski poslovi</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9472"><a href="https://bor.rs/maticna-sluzba-dok/">Matična služba dok.</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17764"><a href="https://bor.rs/biracki-spisak/">Birački spisak dok.</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26561"><a href="https://bor.rs/bezbednost-i-zdravlje-na-radu/">Bezbednost i zdravlje na radu</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6831"><a href="https://bor.rs/sluzbeni-list/">Službeni list</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6832"><a href="https://bor.rs/sl-2008/">SL 2007</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6833"><a href="https://bor.rs/sl-2008-2/">SL 2008</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6834"><a href="https://bor.rs/sl-2009/">SL 2009</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6835"><a href="https://bor.rs/sl-2010/">SL 2010</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6836"><a href="https://bor.rs/sl-2011/">SL 2011</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6837"><a href="https://bor.rs/sl-2012/">SL 2012</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6838"><a href="https://bor.rs/sl-2013/">SL 2013</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6839"><a href="https://bor.rs/sl-2014/">SL 2014</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6840"><a href="https://bor.rs/sl-2015/">SL 2015</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6841"><a href="https://bor.rs/sl-2016/">SL 2016</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6842"><a href="https://bor.rs/%d1%81%d0%bb-2017/">SL 2017</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6843"><a href="https://bor.rs/sl-2018/">SL 2018</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9349"><a href="https://bor.rs/sl-2019/">SL 2019</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11804"><a href="https://bor.rs/sl-2020/">SL 2020</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19336"><a href="https://bor.rs/sl-2021/">SL 2021</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-24902"><a href="https://bor.rs/sl-2022/">SL 2022</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30761"><a href="https://bor.rs/sl-2023/">SL 2023</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34989"><a href="https://bor.rs/sl-2024/">SL 2024</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-30706"><a href="https://bor.rs/javne-nabavke/">JAVNE NABAVKE</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-31391"><a href="#">IZBORI</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34469"><a href="https://bor.rs/izbori-2023/">Izbori 2023</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31392"><a href="https://bor.rs/izbori-2022/">Izbori 2022</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31393"><a href="https://bor.rs/referendum/">Referendum</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31394"><a href="https://bor.rs/izbori-2020/">Izbori 2020</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-31402"><a href="https://bor.rs/lokalni-izbori-bor-2018/">Lokalni Izbori Bor 2018</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3936"><a href="#">Kontakt</a>
+<ul class="sub-menu">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20594"><a href="https://bor.rs/mesne-zajednice/">Mesne zajednice</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9378"><a href="https://bor.rs/imenik/">Imenik</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6830"><a href="https://bor.rs/pitajte-gradonacelnika/">Pitajte Gradonačelnika</a></li>
+</ul>
+</li>
+</ul>
+    <!-- WP Accessibility Helper - Skiplinks Menu -->
+</nav>
+
+<link rel='stylesheet' id='redux-custom-fonts-css' href='//bor.rs/wp-content/uploads/redux/custom-fonts/fonts.css?ver=1720788055' type='text/css' media='all' />
+<script type="text/javascript" src="https://bor.rs/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=5.9.6" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"https:\/\/bor.rs\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://bor.rs/wp-content/plugins/contact-form-7/includes/js/index.js?ver=5.9.6" id="contact-form-7-js"></script>
+<script type="text/javascript" src="https://bor.rs/wp-content/plugins/showcase-visual-composer-addon/assets/js/owl.carousel.min.js?ver=1.3.3" id="owl.carousel.js-js"></script>
+<script type="text/javascript" src="https://bor.rs/wp-content/plugins/wp-accessibility-helper/assets/js/wp-accessibility-helper.min.js?ver=1.0.0" id="wp-accessibility-helper-js"></script>
+<script type="text/javascript" src="https://bor.rs/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script type="text/javascript" src="https://bor.rs/wp-includes/js/masonry.min.js?ver=4.2.2" id="masonry-js"></script>
+<script type="text/javascript" src="https://bor.rs/wp-includes/js/jquery/jquery.masonry.min.js?ver=3.1.2b" id="jquery-masonry-js"></script>
+<script type="text/javascript" src="https://bor.rs/wp-content/themes/townpress/library/js/third-party.js" id="third-party-js"></script>
+<script type="text/javascript" src="https://bor.rs/wp-content/themes/townpress/library/js/library.min.js" id="scripts-library-js"></script>
+<script type="text/javascript" id="main-scripts-js-extra">
+/* <![CDATA[ */
+var lsvrMainScripts = {"ajaxurl":"https:\/\/bor.rs\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://bor.rs/wp-content/themes/townpress/library/js/scripts.min.js" id="main-scripts-js"></script>
+<script type="text/javascript" id="wpcf7cf-scripts-js-extra">
+/* <![CDATA[ */
+var wpcf7cf_global_settings = {"ajaxurl":"https:\/\/bor.rs\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://bor.rs/wp-content/plugins/cf7-conditional-fields/js/scripts.js?ver=2.4.13" id="wpcf7cf-scripts-js"></script>
+<script type="text/javascript" src="https://www.google.com/recaptcha/api.js?render=6LdXvbwUAAAAAAixjVgbqY2Quzf3QBezcmxmmRsw&amp;ver=3.0" id="google-recaptcha-js"></script>
+<script type="text/javascript" src="https://bor.rs/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" src="https://bor.rs/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.14.0" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="https://bor.rs/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0" id="wp-polyfill-js"></script>
+<script type="text/javascript" id="wpcf7-recaptcha-js-extra">
+/* <![CDATA[ */
+var wpcf7_recaptcha = {"sitekey":"6LdXvbwUAAAAAAixjVgbqY2Quzf3QBezcmxmmRsw","actions":{"homepage":"homepage","contactform":"contactform"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://bor.rs/wp-content/plugins/contact-form-7/modules/recaptcha/index.js?ver=5.9.6" id="wpcf7-recaptcha-js"></script>
+<script type="text/javascript" id="gt_widget_script_64907438-js-before">
+/* <![CDATA[ */
+window.gtranslateSettings = /* document.write */ window.gtranslateSettings || {};window.gtranslateSettings['64907438'] = {"default_language":"sr","languages":["ar","zh-CN","en","fr","de","it","ru","sr","es"],"url_structure":"none","wrapper_selector":"#gt-wrapper-64907438","flag_size":24,"globe_size":60,"alt_flags":[],"globe_color":"#66aaff","horizontal_position":"right","vertical_position":"top","flags_location":"\/wp-content\/plugins\/gtranslate\/flags\/svg\/"};
+/* ]]> */
+</script><script src="https://bor.rs/wp-content/plugins/gtranslate/js/globe.js?ver=66c641e8b261c3b788b76e2dd665e516" data-no-optimize="1" data-no-minify="1" data-gt-orig-url="/wp-content/uploads/2018/02/ReferalneKarteGUP.zip" data-gt-orig-domain="bor.rs" data-gt-widget-id="64907438" defer></script>
+</body>
+</html>
